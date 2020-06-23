@@ -1,0 +1,16 @@
+<application>
+  <component name="EclipseCodeFormatterSettings">
+    <option name="settingsList">
+      <list>
+        <Settings>
+          <option name="formatter" value="ECLIPSE" />
+          <option name="id" value="1578991820858" />
+          <option name="importOrderConfigFilePath" value="D:/user-improve/conf/alibaba/ali-code-style.xml" />
+          <option name="name" value="alibaba" />
+          <option name="pathToConfigFileJava" value="D:/user-improve/conf/alibaba/ali-code-style.xml" />
+          <option name="selectedJavaProfile" value="Alibaba-CodeStyle" />
+        </Settings>
+      </list>
+    </option>
+  </component>
+</application>

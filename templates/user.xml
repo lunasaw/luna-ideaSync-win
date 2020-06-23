@@ -1,0 +1,23 @@
+<templateSet group="user">
+  <template name="/**" value="/**   &#10; * @Title: $enclosing_method$  &#10; * @Description: $todo$&#10; * @param: $param$    &#10; * @return: $return$ &#10; * @date: $date$ $time$    &#10; * @throws   &#10; */" shortcut="ENTER" description="method annotation" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="enclosing_method" expression="annotated(&quot;annotation qname&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="todo" expression="methodName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="param" expression="methodParameters()" defaultValue="" alwaysStopAt="true" />
+    <variable name="return" expression="methodReturnType()" defaultValue="" alwaysStopAt="true" />
+    <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <variable name="time" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="me" value="public void method(){&#10;    &#10;}" shortcut="ENTER" description="方法创建" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="mest" value="public static void method(){&#10;    &#10;}" shortcut="ENTER" description="静态方法创建" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
