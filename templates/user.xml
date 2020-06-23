@@ -20,4 +20,9 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="atest" value="@Test&#10;public void atest(){&#10;&#10;}" description="测试类" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
