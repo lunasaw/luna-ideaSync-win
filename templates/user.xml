@@ -36,4 +36,10 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
+  <template name="attr" value="    /**  */&#10;    private String $Name$;" description="类属性快速" toReformat="false" toShortenFQNames="true">
+    <variable name="Name" expression="" defaultValue="name" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
