@@ -31,7 +31,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="anno" value="/** */" description="javaDoc" toReformat="true" toShortenFQNames="true">
+  <template name="anno" value="/** */" description="javaDoc" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
