@@ -42,4 +42,9 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="map" value="Iterator&lt;Map.Entry&lt;String, String&gt;&gt; entries = map.entrySet().iterator();&#10;            while (entries.hasNext()) {&#10;                Map.Entry&lt;String, String&gt; entry = entries.next();&#10;            }" description="遍历map" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
