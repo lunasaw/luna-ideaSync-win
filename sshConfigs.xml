@@ -1,0 +1,7 @@
+<application>
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="47.92.89.8" id="6acccc12-3232-4e9d-86bc-964831861563" keyPath="D:\user-improve\conf\linux\luna-ali" localPort="1099" port="22" nameFormat="DESCRIPTIVE" username="root" />
+    </configs>
+  </component>
+</application>
