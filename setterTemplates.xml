@@ -1,6 +1,5 @@
 <application>
-  <component name="SetterTemplates">
-    <option name="defaultTempalteName" value="Chain" />
+  <component name="SetterTemplates" defaultTemplateName="Builder">
     <option name="templates">
       <list>
         <TemplateResource>
