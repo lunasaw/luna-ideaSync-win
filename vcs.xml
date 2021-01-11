@@ -14,6 +14,22 @@
           <option name="url" value="https://github.com/czy1024/wednesday-register.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/pascalqq/fusion-user.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/pascalqq/wednesday.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/pascalqq/iteknical-common.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://github.com" />
+          <option name="userName" value="czy1024" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="E:\myproject" />
