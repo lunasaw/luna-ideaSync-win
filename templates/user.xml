@@ -52,4 +52,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="main" value="public static void main(String[] args) {&#10;        SpringApplication.run($Class$, args);&#10;    }" description="spring main" toReformat="false" toShortenFQNames="true">
+    <variable name="Class" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
 </templateSet>
