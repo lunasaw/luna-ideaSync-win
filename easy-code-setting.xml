@@ -11,7 +11,7 @@
                 <list>
                   <GlobalConfig>
                     <option name="name" value="init" />
-                    <option name="value" value="##初始化区域&#10;&#10;##去掉表的orm_前缀&#10;$!tableInfo.setName($tool.getClassName($tableInfo.obj.name.replaceFirst(&quot;orm_&quot;,&quot;&quot;)))&#10;&#10;##参考阿里巴巴开发手册，POJO 类中布尔类型的变量，都不要加 is 前缀，否则部分框架解析会引起序列化错误&#10;#foreach($column in $tableInfo.fullColumn)&#10;#if($column.name.startsWith(&quot;is&quot;) &amp;&amp; $column.type.equals(&quot;java.lang.Boolean&quot;))&#10;    $!column.setName($tool.firstLowerCase($column.name.substring(2)))&#10;#end&#10;#end&#10;&#10;##实现动态排除列&#10;#set($temp = $tool.newHashSet(&quot;testCreateTime&quot;, &quot;otherColumn&quot;))&#10;#foreach($item in $temp)&#10;    #set($newList = $tool.newArrayList())&#10;    #foreach($column in $tableInfo.fullColumn)&#10;        #if($column.name!=$item)&#10;            ##带有反回值的方法调用时使用$tool.call来消除返回值&#10;            $tool.call($newList.add($column))&#10;        #end&#10;    #end&#10;    ##重新保存&#10;    $tableInfo.setFullColumn($newList)&#10;#end&#10;&#10;##对importList进行篡改&#10;#set($temp = $tool.newHashSet())&#10;#foreach($column in $tableInfo.fullColumn)&#10;    #if(!$column.type.startsWith(&quot;java.lang.&quot;))&#10;        ##带有反回值的方法调用时使用$tool.call来消除返回值&#10;        $tool.call($temp.add($column.type))&#10;    #end&#10;#end&#10;##覆盖&#10;#set($importList = $temp)" />
+                    <option name="value" value="##初始化区域&#10;&#10;##去掉表的orm_前缀&#10;$!tableInfo.setName($tool.getClassName($tableInfo.obj.name.replaceFirst(&quot;tb&quot;,&quot;&quot;)))&#10;&#10;##参考阿里巴巴开发手册，POJO 类中布尔类型的变量，都不要加 is 前缀，否则部分框架解析会引起序列化错误&#10;#foreach($column in $tableInfo.fullColumn)&#10;#if($column.name.startsWith(&quot;is&quot;) &amp;&amp; $column.type.equals(&quot;java.lang.Boolean&quot;))&#10;    $!column.setName($tool.firstLowerCase($column.name.substring(2)))&#10;#end&#10;#end&#10;&#10;##实现动态排除列&#10;#set($temp = $tool.newHashSet(&quot;testCreateTime&quot;, &quot;otherColumn&quot;))&#10;#foreach($item in $temp)&#10;    #set($newList = $tool.newArrayList())&#10;    #foreach($column in $tableInfo.fullColumn)&#10;        #if($column.name!=$item)&#10;            ##带有反回值的方法调用时使用$tool.call来消除返回值&#10;            $tool.call($newList.add($column))&#10;        #end&#10;    #end&#10;    ##重新保存&#10;    $tableInfo.setFullColumn($newList)&#10;#end&#10;&#10;##对importList进行篡改&#10;#set($temp = $tool.newHashSet())&#10;#foreach($column in $tableInfo.fullColumn)&#10;    #if(!$column.type.startsWith(&quot;java.lang.&quot;))&#10;        ##带有反回值的方法调用时使用$tool.call来消除返回值&#10;        $tool.call($temp.add($column.type))&#10;    #end&#10;#end&#10;##覆盖&#10;#set($importList = $temp)" />
                   </GlobalConfig>
                   <GlobalConfig>
                     <option name="name" value="define" />
@@ -138,6 +138,10 @@
                     <option name="code" value="//调试表原始对象&#10;$!tool.debug($tableInfo.obj)&#10;&#10;//调试列原始对象&#10;$!tool.debug($tableInfo.fullColumn.get(0).obj)&#10;&#10;//调试列原始列类型&#10;$!tool.debug($tableInfo.fullColumn.get(0).obj.dataType)&#10;&#10;//获取原始列类型中的字段&#10;sqlType = $!tool.getField($tableInfo.fullColumn.get(0).obj.dataType, &quot;typeName&quot;)&#10;&#10;//执行原始列类型中的方法&#10;sqlTypeLen = $!tableInfo.fullColumn.get(0).obj.dataType.getLength()&#10;" />
                     <option name="name" value="debug.json" />
                   </Template>
+                  <Template>
+                    <option name="code" value="##引入宏定义&#10;$!init&#10;$!define&#10;##定义初始变量&#10;#set($tableName = $tool.append($tableInfo.name, &quot;Mapper&quot;))&#10;##设置回调&#10;$!callback.setFileName($tool.append($tableName, &quot;.java&quot;))&#10;$!callback.setSavePath($tool.append($tableInfo.savePath, &quot;/mapper&quot;))&#10;&#10;##拿到主键&#10;#if(!$tableInfo.pkColumn.isEmpty())&#10;    #set($pk = $tableInfo.pkColumn.get(0))&#10;#end&#10;&#10;#if($tableInfo.savePackageName)package $!{tableInfo.savePackageName}.#{end}mapper;&#10;&#10;import $!{tableInfo.savePackageName}.entity.$!{tableInfo.name};&#10;import org.apache.ibatis.annotations.Mapper;&#10;import org.apache.ibatis.annotations.Param;&#10;import javax.validation.constraints.*;&#10;import java.util.List;&#10;/**&#10;@Author: ${author}&#10;@CreateTime: ${time.currTime(&quot;yyyy-MM-dd HH:mm:ss&quot;)}&#10;*/&#10;@Mapper&#10;public interface $!{tableName} {&#10;&#10;    /**&#10;     * 通过主键查询数据&#10;     *&#10;     * @param $!pk.name 主键&#10;     * @return 对象&#10;     */&#10;    @Insert(&quot;INSERT INTO $tableInfo.obj.name ( #foreach($column in $tableInfo.fullColumn) $!column.obj.name, #end) values (#foreach($column in $tableInfo.fullColumn) #{$!{column.name}},#end&#10;) &quot;)&#10;    $!{tableInfo.name} getById(@NotNull $!pk.shortType $!pk.name); &#10;&#10;}" />
+                    <option name="name" value="daoanno.java" />
+                  </Template>
                 </list>
               </option>
               <option name="name" value="luna-easycode" />
@@ -208,6 +212,14 @@
                   <TypeMapper>
                     <option name="columnType" value="mediumtext" />
                     <option name="javaType" value="java.lang.String" />
+                  </TypeMapper>
+                  <TypeMapper>
+                    <option name="columnType" value="bigint(20)" />
+                    <option name="javaType" value="java.lang.Long" />
+                  </TypeMapper>
+                  <TypeMapper>
+                    <option name="columnType" value="bigint" />
+                    <option name="javaType" value="java.lang.Long" />
                   </TypeMapper>
                 </list>
               </option>
