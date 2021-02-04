@@ -1,6 +1,7 @@
 <application>
   <component name="EasyCodeSetting">
     <option name="author" value="luna" />
+    <option name="currGlobalConfigGroupName" value="luna-easycode" />
     <option name="currTemplateGroupName" value="luna-easycode" />
     <option name="globalConfigGroupMap">
       <map>
@@ -28,6 +29,33 @@
                 </list>
               </option>
               <option name="name" value="Default" />
+            </GlobalConfigGroup>
+          </value>
+        </entry>
+        <entry key="luna-easycode">
+          <value>
+            <GlobalConfigGroup>
+              <option name="elementList">
+                <list>
+                  <GlobalConfig>
+                    <option name="name" value="init" />
+                    <option name="value" value="##初始化区域&#10;&#10;##去掉表的orm_前缀&#10;$!tableInfo.setName($tool.getClassName($tableInfo.obj.name.replaceFirst(&quot;tb_&quot;,&quot;&quot;)))&#10;&#10;##参考阿里巴巴开发手册，POJO 类中布尔类型的变量，都不要加 is 前缀，否则部分框架解析会引起序列化错误&#10;#foreach($column in $tableInfo.fullColumn)&#10;#if($column.name.startsWith(&quot;is&quot;) &amp;&amp; $column.type.equals(&quot;java.lang.Boolean&quot;))&#10;    $!column.setName($tool.firstLowerCase($column.name.substring(2)))&#10;#end&#10;#end&#10;&#10;##实现动态排除列&#10;#set($temp = $tool.newHashSet(&quot;testCreateTime&quot;, &quot;otherColumn&quot;))&#10;#foreach($item in $temp)&#10;    #set($newList = $tool.newArrayList())&#10;    #foreach($column in $tableInfo.fullColumn)&#10;        #if($column.name!=$item)&#10;            ##带有反回值的方法调用时使用$tool.call来消除返回值&#10;            $tool.call($newList.add($column))&#10;        #end&#10;    #end&#10;    ##重新保存&#10;    $tableInfo.setFullColumn($newList)&#10;#end&#10;&#10;##对importList进行篡改&#10;#set($temp = $tool.newHashSet())&#10;#foreach($column in $tableInfo.fullColumn)&#10;    #if(!$column.type.startsWith(&quot;java.lang.&quot;))&#10;        ##带有反回值的方法调用时使用$tool.call来消除返回值&#10;        $tool.call($temp.add($column.type))&#10;    #end&#10;#end&#10;##覆盖&#10;#set($importList = $temp)" />
+                  </GlobalConfig>
+                  <GlobalConfig>
+                    <option name="name" value="define" />
+                    <option name="value" value="##（Velocity宏定义）&#10;&#10;##定义设置表名后缀的宏定义，调用方式：#setTableSuffix(&quot;Test&quot;)&#10;#macro(setTableSuffix $suffix)&#10;    #set($tableName = $!tool.append($tableInfo.name, $suffix))&#10;#end&#10;&#10;##定义设置包名后缀的宏定义，调用方式：#setPackageSuffix(&quot;Test&quot;)&#10;#macro(setPackageSuffix $suffix)&#10;#if($suffix!=&quot;&quot;)package #end#if($tableInfo.savePackageName!=&quot;&quot;)$!{tableInfo.savePackageName}.#{end}$!suffix;&#10;#end&#10;&#10;##定义直接保存路径与文件名简化的宏定义，调用方式：#save(&quot;/entity&quot;, &quot;.java&quot;)&#10;#macro(save $path $fileName)&#10;    $!callback.setSavePath($tool.append($tableInfo.savePath, $path))&#10;    $!callback.setFileName($tool.append($tableInfo.name, $fileName))&#10;#end&#10;&#10;##定义表注释的宏定义，调用方式：#tableComment(&quot;注释信息&quot;)&#10;#macro(tableComment $desc)&#10;/**&#10; * $!{tableInfo.comment}($!{tableInfo.name})$desc&#10; *&#10; * @author $!author&#10; * @since $!time.currTime()&#10; */&#10;#end&#10;&#10;##定义GET，SET方法的宏定义，调用方式：#getSetMethod($column)&#10;#macro(getSetMethod $column)&#10;&#10;    public $!{tool.getClsNameByFullName($column.type)} get$!{tool.firstUpperCase($column.name)}() {&#10;        return $!{column.name};&#10;    }&#10;&#10;    public void set$!{tool.firstUpperCase($column.name)}($!{tool.getClsNameByFullName($column.type)} $!{column.name}) {&#10;        this.$!{column.name} = $!{column.name};&#10;    }&#10;#end" />
+                  </GlobalConfig>
+                  <GlobalConfig>
+                    <option name="name" value="autoImport" />
+                    <option name="value" value="##自动导入包（仅导入实体属性需要的包，通常用于实体类）&#10;#foreach($import in $importList)&#10;import $!import;&#10;#end" />
+                  </GlobalConfig>
+                  <GlobalConfig>
+                    <option name="name" value="mybatisSupport" />
+                    <option name="value" value="##针对Mybatis 进行支持，主要用于生成xml文件&#10;#foreach($column in $tableInfo.fullColumn)&#10;    ##储存列类型&#10;    $tool.call($column.ext.put(&quot;sqlType&quot;, $tool.getField($column.obj.dataType, &quot;typeName&quot;)))&#10;    #if($tool.newHashSet(&quot;java.lang.String&quot;).contains($column.type))&#10;        #set($jdbcType=&quot;VARCHAR&quot;)&#10;    #elseif($tool.newHashSet(&quot;java.lang.Boolean&quot;, &quot;boolean&quot;).contains($column.type))&#10;        #set($jdbcType=&quot;BOOLEAN&quot;)&#10;    #elseif($tool.newHashSet(&quot;java.lang.Byte&quot;, &quot;byte&quot;).contains($column.type))&#10;        #set($jdbcType=&quot;BYTE&quot;)&#10;    #elseif($tool.newHashSet(&quot;java.lang.Integer&quot;, &quot;int&quot;, &quot;java.lang.Short&quot;, &quot;short&quot;).contains($column.type))&#10;        #set($jdbcType=&quot;INTEGER&quot;)&#10;    #elseif($tool.newHashSet(&quot;java.lang.Long&quot;, &quot;long&quot;).contains($column.type))&#10;        #set($jdbcType=&quot;INTEGER&quot;)&#10;    #elseif($tool.newHashSet(&quot;java.lang.Float&quot;, &quot;float&quot;, &quot;java.lang.Double&quot;, &quot;double&quot;).contains($column.type))&#10;        #set($jdbcType=&quot;NUMERIC&quot;)&#10;    #elseif($tool.newHashSet(&quot;java.util.Date&quot;, &quot;java.sql.Timestamp&quot;, &quot;java.time.Instant&quot;, &quot;java.time.LocalDateTime&quot;, &quot;java.time.OffsetDateTime&quot;, &quot;&#9;java.time.ZonedDateTime&quot;).contains($column.type))&#10;        #set($jdbcType=&quot;TIMESTAMP&quot;)&#10;    #elseif($tool.newHashSet(&quot;java.sql.Date&quot;, &quot;java.time.LocalDate&quot;).contains($column.type))&#10;        #set($jdbcType=&quot;TIMESTAMP&quot;)&#10;    #else&#10;        ##其他类型&#10;        #set($jdbcType=&quot;OTHER&quot;)&#10;    #end&#10;    $tool.call($column.ext.put(&quot;jdbcType&quot;, $jdbcType))&#10;#end&#10;&#10;##定义宏，查询所有列&#10;#macro(allSqlColumn)#foreach($column in $tableInfo.fullColumn)$column.obj.name#if($velocityHasNext), #end#end#end" />
+                  </GlobalConfig>
+                </list>
+              </option>
+              <option name="name" value="luna-easycode" />
             </GlobalConfigGroup>
           </value>
         </entry>
