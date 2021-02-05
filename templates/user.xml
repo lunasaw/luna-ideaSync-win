@@ -58,4 +58,9 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="---" value="        log.info(&quot;-----------------------xxxx-----------------------&quot;);&#10;" description="分隔符" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
 </templateSet>
