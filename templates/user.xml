@@ -63,7 +63,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="nome" value="void method();" shortcut="TAB" toReformat="true" toShortenFQNames="true">
+  <template name="nome" value="void method();" shortcut="TAB" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
