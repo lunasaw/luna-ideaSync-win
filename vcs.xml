@@ -46,9 +46,13 @@
           <option name="url" value="git@github.com:czy1024/luna-common.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:czy1024/luna-code-generate.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="E:\myproject" />
+    <option name="cloneParentDir" value="D:\myproject" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="COLUMN_ORDER">
