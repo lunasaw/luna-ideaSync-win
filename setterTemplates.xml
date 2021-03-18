@@ -1,6 +1,6 @@
 <application>
   <component name="SetterTemplates">
-    <option name="defaultTempalteName" value="Chain" />
+    <option name="defaultTempalteName" value="IntelliJ Default" />
     <option name="templates">
       <list>
         <TemplateResource>
