@@ -5,8 +5,7 @@
         <Settings>
           <option name="formatter" value="ECLIPSE" />
           <option name="id" value="1578991820858" />
-          <option name="importOrderConfigFilePath" value="$USER_HOME$/Documents/luna-linux-conf/ali/ali-code-style.xml" />
-          <option name="importOrderFromFile" value="true" />
+          <option name="importOrderConfigFilePath" value="D:/user-improve/conf/alibaba/ali-code-style.xml" />
           <option name="name" value="alibaba" />
           <option name="pathToConfigFileJava" value="$USER_HOME$/Documents/luna-linux-conf/ali/ali-code-style.xml" />
           <option name="pathToEclipse" value="$USER_HOME$/Documents/luna-linux-conf/ali/ali-code-style.xml" />
