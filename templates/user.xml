@@ -66,4 +66,16 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="sli" value="try { TimeUnit.SECONDS.sleep($seconds$); } catch (InterruptedException e) { e.printStackTrace(); }&#10;" description="睡眠指定时间秒" toReformat="false" toShortenFQNames="true">
+    <variable name="seconds" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="thm" value=" for (int i = 1; i &lt;= $num$; i++) {&#10;            new Thread(() -&gt; {&#10;            &#10;            }, String.valueOf(i)).start();&#10;        }" toReformat="false" toShortenFQNames="true">
+    <variable name="num" expression="" defaultValue="5" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
