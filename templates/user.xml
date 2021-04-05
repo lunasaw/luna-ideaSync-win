@@ -72,7 +72,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="thm" value=" for (int i = 1; i &lt;= $num$; i++) {&#10;            new Thread(() -&gt; {&#10;            &#10;            }, String.valueOf(i)).start();&#10;        }" toReformat="false" toShortenFQNames="true">
+  <template name="thm" value=" for (int i = 1; i &lt;= $num$; i++) {&#10;            new Thread(() -&gt; {&#10;            &#10;            }, String.valueOf(i)).start();&#10;        }" description="" toReformat="false" toShortenFQNames="true">
     <variable name="num" expression="" defaultValue="5" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
