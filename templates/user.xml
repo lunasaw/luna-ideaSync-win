@@ -78,4 +78,9 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="lock" value="lock.lock();&#10;try {&#10;&#10;} catch (Exception e) {&#10;    e.printStackTrace();&#10;} finally {&#10;    lock.unlock();&#10;}       " description="lock" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
