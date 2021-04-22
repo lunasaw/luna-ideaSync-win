@@ -1,0 +1,9 @@
+<application>
+  <component name="RemoteServers">
+    <remote-server name="Docker" type="docker">
+      <configuration>
+        <option name="apiUrl" value="http://f.xicc.cc:22723" />
+      </configuration>
+    </remote-server>
+  </component>
+</application>
