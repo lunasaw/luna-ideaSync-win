@@ -2217,7 +2217,7 @@
                   </entry>
                   <entry key="JBossConfiguration">
                     <value>
-                      <FeaturePluginData displayName="JBoss/WildFly Server" pluginName="WildFly" pluginId="JBoss" />
+                      <FeaturePluginData displayName="JBoss Server" pluginName="WildFly" pluginId="JBoss" />
                     </value>
                   </entry>
                   <entry key="JUnit">
@@ -2367,7 +2367,7 @@
                   </entry>
                   <entry key="WebSphereRunConfigurationType">
                     <value>
-                      <FeaturePluginData displayName="WebSphere/Liberty Server" pluginName="WebSphere" pluginId="WebSphere" />
+                      <FeaturePluginData displayName="WebSphere Server" pluginName="WebSphere" pluginId="WebSphere" />
                     </value>
                   </entry>
                   <entry key="XSLT">
@@ -2500,9 +2500,14 @@
             <FeaturePluginsList>
               <option name="featureMap">
                 <map>
+                  <entry key="apk">
+                    <value>
+                      <FeaturePluginData displayName="Android application" pluginName="Android" pluginId="org.jetbrains.android" />
+                    </value>
+                  </entry>
                   <entry key="ear">
                     <value>
-                      <FeaturePluginData displayName="Java EE Application: Archive" pluginName="Java EE Platform" pluginId="com.intellij.javaee" />
+                      <FeaturePluginData displayName="JavaEE Application: Archive" pluginName="Java EE Platform" pluginId="com.intellij.javaee" />
                     </value>
                   </entry>
                   <entry key="ejb-jar">
@@ -2512,7 +2517,7 @@
                   </entry>
                   <entry key="exploded-ear">
                     <value>
-                      <FeaturePluginData displayName="Java EE Application: Exploded" pluginName="Java EE Platform" pluginId="com.intellij.javaee" />
+                      <FeaturePluginData displayName="JavaEE Application: Exploded" pluginName="Java EE Platform" pluginId="com.intellij.javaee" />
                     </value>
                   </entry>
                   <entry key="exploded-ejb">
