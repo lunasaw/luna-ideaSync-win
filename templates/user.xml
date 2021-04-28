@@ -107,4 +107,9 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
+  <template name="cuvub" value="when id = #{item.id} and version = #{item.version} then  #{item.version} + 1" description="createTime,updateTime,version update batch" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
 </templateSet>
