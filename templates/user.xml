@@ -102,4 +102,9 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
+  <template name="cuvuss" value="            modified_time = now(),&#10;            version = version + 1," description="createTime,updateTime,version update set" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
 </templateSet>
