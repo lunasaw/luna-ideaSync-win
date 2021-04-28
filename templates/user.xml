@@ -82,4 +82,19 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="cuvi" value="                now(),&#10;                now(),&#10;                0," description="createTime,updateTime,version insnet" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="cuvu" value="            &lt;if test=&quot;modifiedTime != null&quot;&gt;&#10;                modified_time = now(),&#10;            &lt;/if&gt;&#10;            &lt;if test=&quot;version != null&quot;&gt;&#10;                version = version + 1,&#10;            &lt;/if&gt;&#10;        &lt;/set&gt;&#10;        where id = #{id,jdbcType=INTEGER} and version = #{version}" description="createTime,updateTime,version update" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="cuvus" value="            &lt;if test=&quot;where.modifiedTime == null and set.modifiedTime != null&quot;&gt;&#10;                modified_time = now(),&#10;            &lt;/if&gt;&#10;            &lt;if test=&quot;where.version == null and set.version != null&quot;&gt;&#10;                version = #{set.version,jdbcType=OTHER} + 1,&#10;            &lt;/if&gt;" description="createTime,updateTime,version update set" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
 </templateSet>
