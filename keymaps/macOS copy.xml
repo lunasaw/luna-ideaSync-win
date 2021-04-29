@@ -3,5 +3,6 @@
   <action id="PreviousEditorTab" />
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="shift f" />
+    <keyboard-shortcut first-keystroke="shift meta s" />
   </action>
 </keymap>
