@@ -12,7 +12,8 @@
     </remote-server>
     <remote-server name="luna-ali" type="docker">
       <configuration>
-        <option name="apiUrl" value="http://106.14.30.12:2375" />
+        <option name="apiUrl" value="https://106.14.30.12:2375" />
+        <option name="certificatesPath" value="$USER_HOME$/Documents/ca" />
       </configuration>
     </remote-server>
   </component>
