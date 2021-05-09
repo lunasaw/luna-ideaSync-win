@@ -7,8 +7,8 @@
           <option name="id" value="1578991820858" />
           <option name="importOrderConfigFilePath" value="D:/user-improve/conf/alibaba/ali-code-style.xml" />
           <option name="name" value="alibaba" />
-          <option name="pathToConfigFileJava" value="$USER_HOME$/Documents/luna-linux-conf/ali/ali-code-style.xml" />
-          <option name="pathToEclipse" value="$USER_HOME$/Documents/luna-linux-conf/ali/ali-code-style.xml" />
+          <option name="pathToConfigFileJava" value="D:/luna/luna-linux-conf/ali/ali-code-style.xml" />
+          <option name="pathToEclipse" value="D:/luna/luna-linux-conf/ali/ali-code-style.xml" />
           <option name="selectedJavaProfile" value="Alibaba-CodeStyle" />
         </Settings>
       </list>
