@@ -13,7 +13,7 @@
     <remote-server name="luna-ali" type="docker">
       <configuration>
         <option name="apiUrl" value="https://106.14.30.12:2375" />
-        <option name="certificatesPath" value="$USER_HOME$/Documents/ca" />
+        <option name="certificatesPath" value="$USER_HOME$/Documents/luna-linux-conf/certs" />
       </configuration>
     </remote-server>
   </component>
