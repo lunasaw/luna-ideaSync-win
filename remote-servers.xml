@@ -1,0 +1,20 @@
+<application>
+  <component name="RemoteServers">
+    <remote-server name="Docker" type="docker">
+      <configuration>
+        <option name="apiUrl" value="http://localhost:2375" />
+      </configuration>
+    </remote-server>
+    <remote-server name="luna-exsi-ubuntu" type="docker">
+      <configuration>
+        <option name="apiUrl" value="http://f.xicc.cc:23422" />
+      </configuration>
+    </remote-server>
+    <remote-server name="luna-ali" type="docker">
+      <configuration>
+        <option name="apiUrl" value="https://106.14.30.12:2375" />
+        <option name="certificatesPath" value="$USER_HOME$/Documents/ca" />
+      </configuration>
+    </remote-server>
+  </component>
+</application>
