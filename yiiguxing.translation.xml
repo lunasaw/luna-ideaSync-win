@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Any nested &lt;beans&gt; elements will cause recursion in this method. In order to propagate and preserve &lt;beans&gt; default- attributes correctly, keep track of the current (parent) delegate, which may be null. Create the new (child) delegate with a reference to the parent for fallback purposes, then ultimately reset this.delegate back to its original (parent) reference. this behavior emulates a stack of delegates without actually necessitating one." />
+      <item value="Actually load the specified document using the configured DocumentLoader." />
+      <item value="the number of bean definitions found" />
       <item value="a single resource with the given name" />
       <item value="Load the bean definitions with the given XmlBeanDefinitionReader." />
       <item value="Load bean definitions into the given bean factory, typically through delegating to one or more bean definition readers." />
