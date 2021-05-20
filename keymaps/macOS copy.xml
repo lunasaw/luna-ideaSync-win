@@ -2,6 +2,6 @@
   <action id="NextEditorTab" />
   <action id="PreviousEditorTab" />
   <action id="SearchEverywhere">
-    <keyboard-shortcut first-keystroke="shift meta s" />
+    <keyboard-shortcut first-keystroke="shift q" />
   </action>
 </keymap>
