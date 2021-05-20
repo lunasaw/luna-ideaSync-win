@@ -1,6 +1,11 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="a single resource with the given name" />
+      <item value="Load the bean definitions with the given XmlBeanDefinitionReader." />
+      <item value="Load bean definitions into the given bean factory, typically through delegating to one or more bean definition readers." />
+      <item value="Configure the bean definition reader with this context's resource loading environment." />
+      <item value="Configuration interface to be implemented by most listable bean factories. In addition to {@link ConfigurableBeanFactory}, it provides facilities to analyze and modify bean definitions, and to pre-instantiate singletons." />
       <item value="Validate that all properties marked as required are resolvable: see ConfigurablePropertyResolversetRequiredProperties" />
       <item value="This method is idempotent with respect to the fact it may be called any number of times but will perform replacement of stub property sources with their corresponding actual property sources once and only once." />
       <item value="JSON" />
