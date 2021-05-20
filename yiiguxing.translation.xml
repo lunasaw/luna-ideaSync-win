@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Validate that all properties marked as required are resolvable: see ConfigurablePropertyResolversetRequiredProperties" />
+      <item value="This method is idempotent with respect to the fact it may be called any number of times but will perform replacement of stub property sources with their corresponding actual property sources once and only once." />
       <item value="JSON" />
       <item value="@Override public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException { HttpServletRequest req = (HttpServletRequest)request; HttpSession ses = req.getSession(); HttpServletResponse resp = (HttpServletResponse)response; String path = req.getContextPath(); req.setCharacterEncoding(&quot;UTF-8&quot;); 登陆放通 if (LoginVerify.isLogin(req)) { chain.doFilter(request, response); return; } String url = req.getRequestURI(); System.out.println(url); 不需要拦截的请求 List&lt;String&gt; filterPath = Lists.newArrayList(); filterPath.add(path + &quot;login&quot;); filterPath.add(path + &quot;register&quot;); filterPath.add(path + &quot;userregister.jsp&quot;); filterPath.add(path + &quot;userlogin.jsp&quot;); filterPath.add(path + &quot;error.jsp&quot;); 没有登陆 路径为空-&gt;跳转登陆 if (StringUtils.isEmpty(url)) {" />
       <item value="Nullable" />
@@ -13,6 +15,6 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1620992628924" />
+    <option name="lastTrimTime" value="1621517925835" />
   </component>
 </application>
