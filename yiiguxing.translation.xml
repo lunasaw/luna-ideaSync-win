@@ -6,6 +6,8 @@
     <option name="newTranslationDialogY" value="149" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Create the {@link XmlReaderContext} to pass over to the document reader." />
+      <item value="reading bean definitions from an XML document." />
       <item value="Take an array of strings and split each element based on the given delimiter. A {@code Properties} instance is then generated, with the left of the delimiter providing the key, and the right of the delimiter providing the value." />
       <item value="Convert a comma delimited list (e.g., a row from a CSV file) into an array of strings." />
       <item value="System property that instructs Spring to ignore system environment variables," />
