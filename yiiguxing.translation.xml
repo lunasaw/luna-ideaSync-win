@@ -6,6 +6,7 @@
     <option name="newTranslationDialogY" value="149" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Return whether the given throwable is a checked exception: that is, neither a RuntimeException nor an Error." />
       <item value="Parses the supplied {@code &lt;bean&gt;} element. May return {@code null} if there were errors during parse. Errors are reported to the" />
       <item value="Create a new BeanComponentDefinition for the given bean." />
       <item value="Process the given bean element, parsing the bean definition and registering it with the registry." />
