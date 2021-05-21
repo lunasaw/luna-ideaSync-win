@@ -6,6 +6,10 @@
     <option name="newTranslationDialogY" value="149" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Create a new BeanComponentDefinition for the given bean." />
+      <item value="Process the given bean element, parsing the bean definition and registering it with the registry." />
+      <item value="Parse the elements at the root level in the document: &quot;import&quot;, &quot;alias&quot;, &quot;bean&quot;." />
+      <item value="Load bean definitions from the specified XML file." />
       <item value="Iterate over a copy to allow for init methods which in turn register new bean definitions. While this may not be part of the regular factory bootstrap, it does otherwise work fine." />
       <item value="Allow for caching all bean definition metadata, not expecting further changes." />
       <item value="Stop using the temporary ClassLoader for type matching." />
