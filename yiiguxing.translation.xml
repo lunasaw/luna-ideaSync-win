@@ -6,6 +6,8 @@
     <option name="newTranslationDialogY" value="149" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Get the role hint for this {@code BeanDefinition}. The role hint provides the frameworks as well as tools with an indication of the role and importance of a particular {@code BeanDefinition}." />
+      <item value="frozen" />
       <item value="Create the {@link XmlReaderContext} to pass over to the document reader." />
       <item value="reading bean definitions from an XML document." />
       <item value="Take an array of strings and split each element based on the given delimiter. A {@code Properties} instance is then generated, with the left of the delimiter providing the key, and the right of the delimiter providing the value." />
