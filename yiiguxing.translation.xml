@@ -6,6 +6,21 @@
     <option name="newTranslationDialogY" value="149" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Iterate over a copy to allow for init methods which in turn register new bean definitions. While this may not be part of the regular factory bootstrap, it does otherwise work fine." />
+      <item value="Allow for caching all bean definition metadata, not expecting further changes." />
+      <item value="Stop using the temporary ClassLoader for type matching." />
+      <item value="Initialize LoadTimeWeaverAware beans early to allow for registering their transformers early." />
+      <item value="Register a default embedded value resolver if no bean post-processor (such as a PropertyPlaceholderConfigurer bean) registered any before: at this point, primarily for resolution in annotation attribute values." />
+      <item value="Initialize conversion service for this context." />
+      <item value="Instantiate all remaining (non-lazy-init) singletons." />
+      <item value="Finish the initialization of this context's bean factory, initializing all remaining singleton beans." />
+      <item value="Invoke factory processors registered as beans in the context." />
+      <item value="Detect a LoadTimeWeaver and prepare for weaving, if found in the meantime" />
+      <item value="Register default environment beans." />
+      <item value="Detect a LoadTimeWeaver and prepare for weaving, if found." />
+      <item value="Register early post-processor for detecting inner beans as ApplicationListeners." />
+      <item value="Create a new {@code StandardBeanExpressionResolver} with the given bean class loader, using it as the basis for expression compilation." />
+      <item value="Configure the factory's standard context characteristics, such as the context's ClassLoader and post-processors." />
       <item value="Get the role hint for this {@code BeanDefinition}. The role hint provides the frameworks as well as tools with an indication of the role and importance of a particular {@code BeanDefinition}." />
       <item value="frozen" />
       <item value="Create the {@link XmlReaderContext} to pass over to the document reader." />
