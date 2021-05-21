@@ -1,6 +1,20 @@
 <application>
   <component name="AppStorage">
+    <option name="newTranslationDialogHeight" value="306" />
+    <option name="newTranslationDialogWidth" value="509" />
+    <option name="newTranslationDialogX" value="1356" />
+    <option name="newTranslationDialogY" value="149" />
+    <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Convert a comma delimited list (e.g., a row from a CSV file) into an array of strings." />
+      <item value="System property that instructs Spring to ignore system environment variables," />
+      <item value="Inherit Environment if possible" />
+      <item value="Determine whether the given bean name is already in use within this registry,&#10;&#9; * i.e. whether there is a local bean or alias registered under this name." />
+      <item value=" Return the names of all beans defined in this registry." />
+      <item value="Return the BeanDefinition for the given bean name." />
+      <item value="Remove the BeanDefinition for the given name." />
+      <item value="Register a new bean definition with this registry. Must support RootBeanDefinition and ChildBeanDefinition." />
+      <item value="Standalone XML application context, taking the context definition files from the class path, interpreting plain paths as class path resource names that include the package path (e.g. &quot;mypackagemyresource.txt&quot;). Useful for test harnesses as well as for application contexts embedded within JARs." />
       <item value="Read bean definitions from the given DOM document and register them with the registry in the given reader context." />
       <item value="Resolve the given location against the given resource loader if this implementation's protocol matches." />
       <item value="Any nested &lt;beans&gt; elements will cause recursion in this method. In order to propagate and preserve &lt;beans&gt; default- attributes correctly, keep track of the current (parent) delegate, which may be null. Create the new (child) delegate with a reference to the parent for fallback purposes, then ultimately reset this.delegate back to its original (parent) reference. this behavior emulates a stack of delegates without actually necessitating one." />
