@@ -6,6 +6,7 @@
     <option name="newTranslationDialogY" value="149" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Parses the supplied {@code &lt;bean&gt;} element. May return {@code null} if there were errors during parse. Errors are reported to the" />
       <item value="Create a new BeanComponentDefinition for the given bean." />
       <item value="Process the given bean element, parsing the bean definition and registering it with the registry." />
       <item value="Parse the elements at the root level in the document: &quot;import&quot;, &quot;alias&quot;, &quot;bean&quot;." />
