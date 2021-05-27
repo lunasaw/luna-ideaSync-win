@@ -3,6 +3,7 @@
     <option name="author" value="luna" />
     <option name="currGlobalConfigGroupName" value="luna-easycode-swagger" />
     <option name="currTemplateGroupName" value="luna-mongodb-restful" />
+    <option name="currTypeMapperGroupName" value="luna" />
     <option name="globalConfigGroupMap">
       <map>
         <entry key="Default">
@@ -453,11 +454,86 @@
                   </TypeMapper>
                   <TypeMapper>
                     <option name="columnType" value="int(\(\d+\))? unsigned" />
-                    <option name="javaType" value="java.lang.Object" />
+                    <option name="javaType" value="java.lang.Long" />
                   </TypeMapper>
                 </list>
               </option>
               <option name="name" value="Default" />
+            </TypeMapperGroup>
+          </value>
+        </entry>
+        <entry key="luna">
+          <value>
+            <TypeMapperGroup>
+              <option name="elementList">
+                <list>
+                  <TypeMapper>
+                    <option name="columnType" value="varchar(\(\d+\))?" />
+                    <option name="javaType" value="java.lang.String" />
+                  </TypeMapper>
+                  <TypeMapper>
+                    <option name="columnType" value="char(\(\d+\))?" />
+                    <option name="javaType" value="java.lang.String" />
+                  </TypeMapper>
+                  <TypeMapper>
+                    <option name="columnType" value="text" />
+                    <option name="javaType" value="java.lang.String" />
+                  </TypeMapper>
+                  <TypeMapper>
+                    <option name="columnType" value="decimal(\(\d+\))?" />
+                    <option name="javaType" value="java.lang.Double" />
+                  </TypeMapper>
+                  <TypeMapper>
+                    <option name="columnType" value="decimal(\(\d+,\d+\))?" />
+                    <option name="javaType" value="java.lang.Double" />
+                  </TypeMapper>
+                  <TypeMapper>
+                    <option name="columnType" value="integer" />
+                    <option name="javaType" value="java.lang.Integer" />
+                  </TypeMapper>
+                  <TypeMapper>
+                    <option name="columnType" value="int(\(\d+\))?" />
+                    <option name="javaType" value="java.lang.Integer" />
+                  </TypeMapper>
+                  <TypeMapper>
+                    <option name="columnType" value="int4" />
+                    <option name="javaType" value="java.lang.Integer" />
+                  </TypeMapper>
+                  <TypeMapper>
+                    <option name="columnType" value="int8" />
+                    <option name="javaType" value="java.lang.Long" />
+                  </TypeMapper>
+                  <TypeMapper>
+                    <option name="columnType" value="bigint(\(\d+\))?" />
+                    <option name="javaType" value="java.lang.Long" />
+                  </TypeMapper>
+                  <TypeMapper>
+                    <option name="columnType" value="datetime" />
+                    <option name="javaType" value="java.util.Date" />
+                  </TypeMapper>
+                  <TypeMapper>
+                    <option name="columnType" value="timestamp" />
+                    <option name="javaType" value="java.util.Date" />
+                  </TypeMapper>
+                  <TypeMapper>
+                    <option name="columnType" value="boolean" />
+                    <option name="javaType" value="java.lang.Boolean" />
+                  </TypeMapper>
+                  <TypeMapper>
+                    <option name="columnType" value="integer(\(\d+\))?" />
+                    <option name="javaType" value="java.lang.Integer" />
+                  </TypeMapper>
+                  <TypeMapper>
+                    <option name="columnType" value="int(11) unsigned" />
+                    <option name="javaType" value="java.lang.Long" />
+                  </TypeMapper>
+                  <TypeMapper>
+                    <option name="columnType" value="int(\(\d+\))? unsigned" />
+                    <option name="javaType" value="java.lang.Long" />
+                  </TypeMapper>
+                </list>
+              </option>
+              <option name="name" value="luna" />
             </TypeMapperGroup>
           </value>
         </entry>
