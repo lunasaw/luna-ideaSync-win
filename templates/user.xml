@@ -122,4 +122,9 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
+  <template name="cuvd" value=" and id = #{id,jdbcType=INTEGER} and version = #{version,jdbcType=OTHER}" description="delete createTime,updateTime,version" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
 </templateSet>
