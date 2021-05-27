@@ -97,7 +97,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="cuvus" value="            modified_time = now(),&#10;            version = version + 1,&#10;        &lt;/set&gt;&#10;        where id = #{id,jdbcType=INTEGER} and version =  #{version,jdbcType=OTHER}," description="createTime,updateTime,version update set" toReformat="false" toShortenFQNames="true">
+  <template name="cuvufs" value="and version = #{where.version,jdbcType=OTHER} + 1&#10;        &lt;/where&gt;&#10;    &lt;/update&gt;" description="createTime,updateTime,version update field set" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -113,6 +113,11 @@
     </context>
   </template>
   <template name="cuvuvv" value="            &lt;trim prefix=&quot;modified_time = case&quot; suffix=&quot;end,&quot;&gt;&#10;                &lt;foreach collection=&quot;list&quot; item=&quot;item&quot; index=&quot;index&quot;&gt;&#10;                    when id = #{item.id} then now()&#10;                &lt;/foreach&gt;&#10;            &lt;/trim&gt;&#10;            &lt;trim prefix=&quot;version = case&quot; suffix=&quot;end,&quot;&gt;&#10;                &lt;foreach collection=&quot;list&quot; item=&quot;item&quot; index=&quot;index&quot;&gt;&#10;                    when id = #{item.id} and version = #{item.version} then #{item.version} + 1&#10;                &lt;/foreach&gt;&#10;            &lt;/trim&gt;" description="createTime,updateTime,version update value" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="cuvus" value="            &lt;if test=&quot;modifiedTime != null&quot;&gt;&#10;                modified_time = now(),&#10;            &lt;/if&gt;&#10;            &lt;if test=&quot;version != null&quot;&gt;&#10;                version = version + 1,&#10;            &lt;/if&gt;&#10;        &lt;/set&gt;&#10;        where id = #{id,jdbcType=INTEGER} and version = #{version}" description="createTime,updateTime,version update" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
