@@ -6,6 +6,8 @@
     <option name="newTranslationDialogY" value="149" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Resolve the bean class for the specified bean definition, resolving a bean class name into a Class reference (if necessary) and storing the resolved Class in the bean definition for further use." />
+      <item value="Create a bean instance for the given merged bean definition (and arguments). The bean definition will already have been merged with the parent definition in case of a child definition." />
       <item value="List of names of manually registered singletons, in registration order." />
       <item value="List of bean definition names, in registration order." />
       <item value="Map of singleton-only bean names, keyed by dependency type." />
@@ -54,8 +56,6 @@
       <item value="Load bean definitions into the given bean factory, typically through delegating to one or more bean definition readers." />
       <item value="Configure the bean definition reader with this context's resource loading environment." />
       <item value="Configuration interface to be implemented by most listable bean factories. In addition to {@link ConfigurableBeanFactory}, it provides facilities to analyze and modify bean definitions, and to pre-instantiate singletons." />
-      <item value="Validate that all properties marked as required are resolvable: see ConfigurablePropertyResolversetRequiredProperties" />
-      <item value="This method is idempotent with respect to the fact it may be called any number of times but will perform replacement of stub property sources with their corresponding actual property sources once and only once." />
     </histories>
     <option name="languageScores">
       <map>
