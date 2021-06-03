@@ -6,6 +6,9 @@
     <option name="newTranslationDialogY" value="149" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="List of names of manually registered singletons, in registration order." />
+      <item value="List of bean definition names, in registration order." />
+      <item value="Map of singleton-only bean names, keyed by dependency type." />
       <item value="Return whether the given throwable is a checked exception: that is, neither a RuntimeException nor an Error." />
       <item value="Parses the supplied {@code &lt;bean&gt;} element. May return {@code null} if there were errors during parse. Errors are reported to the" />
       <item value="Create a new BeanComponentDefinition for the given bean." />
@@ -53,9 +56,6 @@
       <item value="Configuration interface to be implemented by most listable bean factories. In addition to {@link ConfigurableBeanFactory}, it provides facilities to analyze and modify bean definitions, and to pre-instantiate singletons." />
       <item value="Validate that all properties marked as required are resolvable: see ConfigurablePropertyResolversetRequiredProperties" />
       <item value="This method is idempotent with respect to the fact it may be called any number of times but will perform replacement of stub property sources with their corresponding actual property sources once and only once." />
-      <item value="JSON" />
-      <item value="@Override public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException { HttpServletRequest req = (HttpServletRequest)request; HttpSession ses = req.getSession(); HttpServletResponse resp = (HttpServletResponse)response; String path = req.getContextPath(); req.setCharacterEncoding(&quot;UTF-8&quot;); 登陆放通 if (LoginVerify.isLogin(req)) { chain.doFilter(request, response); return; } String url = req.getRequestURI(); System.out.println(url); 不需要拦截的请求 List&lt;String&gt; filterPath = Lists.newArrayList(); filterPath.add(path + &quot;login&quot;); filterPath.add(path + &quot;register&quot;); filterPath.add(path + &quot;userregister.jsp&quot;); filterPath.add(path + &quot;userlogin.jsp&quot;); filterPath.add(path + &quot;error.jsp&quot;); 没有登陆 路径为空-&gt;跳转登陆 if (StringUtils.isEmpty(url)) {" />
-      <item value="Nullable" />
     </histories>
     <option name="languageScores">
       <map>
@@ -65,6 +65,6 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1621517925835" />
+    <option name="lastTrimTime" value="1622700920367" />
   </component>
 </application>
