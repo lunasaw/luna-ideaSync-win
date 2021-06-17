@@ -488,11 +488,11 @@
                   </TypeMapper>
                   <TypeMapper>
                     <option name="columnType" value="int(11) unsigned" />
-                    <option name="javaType" value="java.lang.Long" />
+                    <option name="javaType" value="java.lang.Integer" />
                   </TypeMapper>
                   <TypeMapper>
                     <option name="columnType" value="int(\(\d+\))? unsigned" />
-                    <option name="javaType" value="java.lang.Long" />
+                    <option name="javaType" value="java.lang.Integer" />
                   </TypeMapper>
                   <TypeMapper>
                     <option name="columnType" value="bigint(20) unsigned" />
@@ -500,6 +500,10 @@
                   </TypeMapper>
                   <TypeMapper>
                     <option name="columnType" value="int(11) unsigned" />
+                    <option name="javaType" value="java.lang.Integer" />
+                  </TypeMapper>
+                  <TypeMapper>
+                    <option name="columnType" value="int(\(\d+\))? unsigned" />
                     <option name="javaType" value="java.lang.Integer" />
                   </TypeMapper>
                   <TypeMapper>
@@ -575,7 +579,7 @@
                   </TypeMapper>
                   <TypeMapper>
                     <option name="columnType" value="int(11) unsigned" />
-                    <option name="javaType" value="java.lang.Long" />
+                    <option name="javaType" value="java.lang.Integer" />
                   </TypeMapper>
                   <TypeMapper>
                     <option name="columnType" value="int(\(\d+\))? " />
