@@ -8,8 +8,7 @@
   </component>
   <component name="DefaultFont">
     <option name="FONT_SIZE" value="16" />
-    <option name="FONT_FAMILY" value="Inconsolata" />
-    <option name="FONT_REGULAR_SUB_FAMILY" value="Medium" />
+    <option name="FONT_FAMILY" value="Menlo" />
   </component>
   <component name="EditorSettings">
     <option name="USE_SOFT_WRAPS" value="CONSOLE" />
