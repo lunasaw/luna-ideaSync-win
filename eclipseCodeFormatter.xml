@@ -3,7 +3,6 @@
     <option name="settingsList">
       <list>
         <Settings>
-          <option name="enableJavaFormatting" value="false" />
           <option name="formatter" value="ECLIPSE" />
           <option name="id" value="1578991820858" />
           <option name="importOrderConfigFilePath" value="D:/user-improve/conf/alibaba/ali-code-style.xml" />
