@@ -10,6 +10,7 @@
       <mapping pattern="registry" type="PLAIN_TEXT" />
       <mapping ext="env" type="PLAIN_TEXT" />
       <mapping ext="out" type="PLAIN_TEXT" />
+      <mapping ext="bat" type="PLAIN_TEXT" />
       <mapping ext="key" type="PLAIN_TEXT" />
       <mapping ext="proproties" type="PLAIN_TEXT" />
       <mapping ext="setting" type="PLAIN_TEXT" />
