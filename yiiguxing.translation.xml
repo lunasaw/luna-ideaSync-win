@@ -6,6 +6,7 @@
     <option name="newTranslationDialogY" value="149" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Not only is it a great method for avoiding thread blocking of redis, ie. deleting big object, it can also be extremely important for averting exception problems in this thread, ie. cannot del expire key when exception happen." />
       <item value="Old merge sort implementation can be selected (for compatibility with broken comparators) using a system property. Cannot be a static boolean in the enclosing class due to circular dependencies. To be removed in a future release." />
       <item value="背景图" />
       <item value="Resolve the bean class for the specified bean definition, resolving a bean class name into a Class reference (if necessary) and storing the resolved Class in the bean definition for further use." />
@@ -55,12 +56,11 @@
       <item value="the number of bean definitions found" />
       <item value="a single resource with the given name" />
       <item value="Load the bean definitions with the given XmlBeanDefinitionReader." />
-      <item value="Load bean definitions into the given bean factory, typically through delegating to one or more bean definition readers." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="4" />
-        <entry key="ENGLISH" value="6" />
+        <entry key="CHINESE" value="5" />
+        <entry key="ENGLISH" value="7" />
       </map>
     </option>
   </component>
