@@ -6,6 +6,7 @@
     <option name="newTranslationDialogY" value="149" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Old merge sort implementation can be selected (for compatibility with broken comparators) using a system property. Cannot be a static boolean in the enclosing class due to circular dependencies. To be removed in a future release." />
       <item value="背景图" />
       <item value="Resolve the bean class for the specified bean definition, resolving a bean class name into a Class reference (if necessary) and storing the resolved Class in the bean definition for further use." />
       <item value="Create a bean instance for the given merged bean definition (and arguments). The bean definition will already have been merged with the parent definition in case of a child definition." />
@@ -55,16 +56,15 @@
       <item value="a single resource with the given name" />
       <item value="Load the bean definitions with the given XmlBeanDefinitionReader." />
       <item value="Load bean definitions into the given bean factory, typically through delegating to one or more bean definition readers." />
-      <item value="Configure the bean definition reader with this context's resource loading environment." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="2" />
-        <entry key="ENGLISH" value="4" />
+        <entry key="CHINESE" value="4" />
+        <entry key="ENGLISH" value="6" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1622700920367" />
+    <option name="lastTrimTime" value="1634523787408" />
   </component>
 </application>
