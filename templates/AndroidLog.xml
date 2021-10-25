@@ -7,7 +7,7 @@
   </template>
   <template name="loge" value="log.error(&quot;$METHOD_NAME$::$PLACE_HOLDERS$ e={}&quot;, $ARGUMENTS$, $exception$);&#10;" description="log.error(&quot;$METHOD_NAME$::$PLACE_HOLDERS$ e={}&quot;, $ARGUMENTS$, $exception$);" toReformat="true" toShortenFQNames="true">
     <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
-    <variable name="PLACE_HOLDERS" expression="groovyScript(&quot;_1.collect { it + ' = [{}]'}.join(', ') &quot;, methodParameters())" defaultValue="" alwaysStopAt="false" />
+    <variable name="PLACE_HOLDERS" expression="groovyScript(&quot;_1.collect { it + ' = {}'}.join(', ') &quot;, methodParameters())" defaultValue="" alwaysStopAt="false" />
     <variable name="ARGUMENTS" expression="groovyScript(&quot;_1.collect { it }.join(', ') &quot;, methodParameters())" defaultValue="" alwaysStopAt="false" />
     <variable name="exception" expression="" defaultValue="e" alwaysStopAt="false" />
     <context />
@@ -18,13 +18,13 @@
   </template>
   <template name="logi" value="log.info(&quot;$METHOD_NAME$::$PLACE_HOLDERS$&quot;, $ARGUMENTS$);&#10;" description="log.debug(&quot;$METHOD_NAME$::$PLACE_HOLDERS$&quot;, $ARGUMENTS$);" toReformat="true" toShortenFQNames="true">
     <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
-    <variable name="PLACE_HOLDERS" expression="groovyScript(&quot;_1.collect { it + ' = [{}]'}.join(', ') &quot;, methodParameters())" defaultValue="" alwaysStopAt="false" />
+    <variable name="PLACE_HOLDERS" expression="groovyScript(&quot;_1.collect { it + ' = {}'}.join(', ') &quot;, methodParameters())" defaultValue="" alwaysStopAt="false" />
     <variable name="ARGUMENTS" expression="groovyScript(&quot;_1.collect { it }.join(', ') &quot;, methodParameters())" defaultValue="" alwaysStopAt="false" />
     <context />
   </template>
   <template name="logr" value="log.info(&quot;$METHOD_NAME$ () returned::$PLACE_HOLDERS$&quot;, $ARGUMENTS$);&#10;" description="log.error(&quot;$METHOD_NAME$::$PLACE_HOLDERS$ e={}&quot;, $ARGUMENTS$, $exception$);" toReformat="true" toShortenFQNames="true">
     <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
-    <variable name="PLACE_HOLDERS" expression="groovyScript(&quot;_1.collect { it + ' = [{}]'}.join(', ') &quot;, methodParameters())" defaultValue="" alwaysStopAt="false" />
+    <variable name="PLACE_HOLDERS" expression="groovyScript(&quot;_1.collect { it + ' = {}'}.join(', ') &quot;, methodParameters())" defaultValue="" alwaysStopAt="false" />
     <variable name="ARGUMENTS" expression="groovyScript(&quot;_1.collect { it }.join(', ') &quot;, methodParameters())" defaultValue="" alwaysStopAt="false" />
     <context />
   </template>
