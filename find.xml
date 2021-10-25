@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project and Libraries" />
-    <option name="defaultScopeName" value="Project and Libraries" />
+    <option name="customScope" value="Default Changelist" />
+    <option name="defaultScopeName" value="Default Changelist" />
     <option name="localCaseSensitive" value="true" />
     <option name="localRegularExpressions" value="true" />
     <option name="skipResultsWithOneUsage" value="true" />
@@ -9,6 +9,6 @@
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="WITH_SUBDIRECTORIES" value="false" />
-    <option name="SEARCH_SCOPE" value="Project and Libraries" />
+    <option name="SEARCH_SCOPE" value="Default Changelist" />
   </component>
 </application>
