@@ -6,6 +6,7 @@
     <option name="newTranslationDialogY" value="149" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="get all bonusDTO belong the level" />
       <item value="this method has a drawback, when the fx item setting has default setting shop_bonus_fx_sku_ids has value : some skuId's setting is default and other skudId's setting is custom" />
       <item value="shop_bonus_fx_sku_ids has value : some skuId's setting is default and other skudId's setting is custom" />
       <item value="Poster" />
@@ -55,12 +56,11 @@
       <item value="Read bean definitions from the given DOM document and register them with the registry in the given reader context." />
       <item value="Resolve the given location against the given resource loader if this implementation's protocol matches." />
       <item value="Any nested &lt;beans&gt; elements will cause recursion in this method. In order to propagate and preserve &lt;beans&gt; default- attributes correctly, keep track of the current (parent) delegate, which may be null. Create the new (child) delegate with a reference to the parent for fallback purposes, then ultimately reset this.delegate back to its original (parent) reference. this behavior emulates a stack of delegates without actually necessitating one." />
-      <item value="Actually load the specified document using the configured DocumentLoader." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="8" />
-        <entry key="ENGLISH" value="10" />
+        <entry key="CHINESE" value="9" />
+        <entry key="ENGLISH" value="11" />
       </map>
     </option>
   </component>
