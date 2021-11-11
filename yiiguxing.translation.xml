@@ -6,6 +6,7 @@
     <option name="newTranslationDialogY" value="149" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Sets the size - indicating how many term buckets should be returned" />
       <item value="指定" />
       <item value="get all bonusDTO belong the level" />
       <item value="this method has a drawback, when the fx item setting has default setting shop_bonus_fx_sku_ids has value : some skuId's setting is default and other skudId's setting is custom" />
@@ -55,12 +56,11 @@
       <item value="Register a new bean definition with this registry. Must support RootBeanDefinition and ChildBeanDefinition." />
       <item value="Standalone XML application context, taking the context definition files from the class path, interpreting plain paths as class path resource names that include the package path (e.g. &quot;mypackagemyresource.txt&quot;). Useful for test harnesses as well as for application contexts embedded within JARs." />
       <item value="Read bean definitions from the given DOM document and register them with the registry in the given reader context." />
-      <item value="Resolve the given location against the given resource loader if this implementation's protocol matches." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="10" />
-        <entry key="ENGLISH" value="11" />
+        <entry key="CHINESE" value="11" />
+        <entry key="ENGLISH" value="12" />
       </map>
     </option>
   </component>
