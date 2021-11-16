@@ -6,6 +6,10 @@
     <option name="newTranslationDialogY" value="149" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="found no record or sharer_uid is null or fans_uid is same with sharer_uid (infinite loop), then break if" />
+      <item value="in case of the level of one of the first three fans is six and the third can achieve diff level bonus and its sharer can achieve same level bonus. suppose the level of buyer chain is sequence : 13456666, so wrong code is hasMaxLevel &amp;&amp; retList.size() &gt;= six, which return 134566" />
+      <item value="no matter the num of relation chain, the search observe the following two rules. 1. search all relation chain when there is no none's level is max level. 2. search first three fans because the level of one of the first three fans is max level, maybe the first, the second or the third. boolean hasMaxLevel = false;" />
+      <item value="here is a hard-coded business logical : the little red group's highest level, which is 6 today" />
       <item value="Sets the size - indicating how many term buckets should be returned" />
       <item value="指定" />
       <item value="get all bonusDTO belong the level" />
@@ -52,19 +56,15 @@
       <item value="Determine whether the given bean name is already in use within this registry,&#10;&#9; * i.e. whether there is a local bean or alias registered under this name." />
       <item value=" Return the names of all beans defined in this registry." />
       <item value="Return the BeanDefinition for the given bean name." />
-      <item value="Remove the BeanDefinition for the given name." />
-      <item value="Register a new bean definition with this registry. Must support RootBeanDefinition and ChildBeanDefinition." />
-      <item value="Standalone XML application context, taking the context definition files from the class path, interpreting plain paths as class path resource names that include the package path (e.g. &quot;mypackagemyresource.txt&quot;). Useful for test harnesses as well as for application contexts embedded within JARs." />
-      <item value="Read bean definitions from the given DOM document and register them with the registry in the given reader context." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="11" />
-        <entry key="ENGLISH" value="12" />
+        <entry key="CHINESE" value="15" />
+        <entry key="ENGLISH" value="16" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1636541019446" />
+    <option name="lastTrimTime" value="1637042859092" />
   </component>
 </application>
