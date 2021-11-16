@@ -1,19 +1,19 @@
 <application>
-  <component name="FileTypeManager" version="17">
-    <ignoreFiles list="*.DS_Store;*.idea;*.iml;*.pyc;*.pyo;*.rbc;*.yarb;*~;.git;.hg;.svn;CVS;__pycache__;_svn;vssver.scc;vssver2.scc;" />
+  <component name="FileTypeManager" version="18">
+    <ignoreFiles list="*.DS_Store;*.idea;*.iml;*.pyc;*.pyo;*.rbc;*.yarb;*~;.git;.hg;.svn;CVS;__pycache__;_svn;vssver.scc;vssver2.scc" />
     <extensionMap>
-      <mapping ext="main.kts" type="Kotlin" />
-      <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="space.kts" type="Kotlin" />
+      <mapping ext="gradle.kts" type="Kotlin" />
+      <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="queen" type="PLAIN_TEXT" />
       <mapping pattern="registry" type="PLAIN_TEXT" />
+      <mapping ext="env" type="PLAIN_TEXT" />
       <mapping ext="out" type="PLAIN_TEXT" />
+      <mapping ext="key" type="PLAIN_TEXT" />
       <mapping ext="proproties" type="PLAIN_TEXT" />
       <mapping ext="setting" type="PLAIN_TEXT" />
-      <mapping ext="env" type="PLAIN_TEXT" />
-      <mapping ext="key" type="PLAIN_TEXT" />
-      <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
+      <removed_mapping ext="psd" approved="true" type="Image" />
     </extensionMap>
   </component>
 </application>
