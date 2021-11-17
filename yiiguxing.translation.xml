@@ -6,6 +6,7 @@
     <option name="newTranslationDialogY" value="149" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="write" />
       <item value="fifteen same level bonus fans" />
       <item value="five diff level bonus fans" />
       <item value="found no record or sharer_uid is null or fans_uid is same with sharer_uid (infinite loop), then break if" />
@@ -55,12 +56,11 @@
       <item value="Convert a comma delimited list (e.g., a row from a CSV file) into an array of strings." />
       <item value="System property that instructs Spring to ignore system environment variables," />
       <item value="Inherit Environment if possible" />
-      <item value="Determine whether the given bean name is already in use within this registry,&#10;&#9; * i.e. whether there is a local bean or alias registered under this name." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="17" />
-        <entry key="ENGLISH" value="18" />
+        <entry key="CHINESE" value="18" />
+        <entry key="ENGLISH" value="19" />
       </map>
     </option>
   </component>
