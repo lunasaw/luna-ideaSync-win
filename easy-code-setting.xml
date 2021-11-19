@@ -1,8 +1,35 @@
 <application>
   <component name="EasyCodeSetting">
     <option name="author" value="luna" />
+    <option name="columnConfigGroupMap">
+      <map>
+        <entry key="Default">
+          <value>
+            <ColumnConfigGroup>
+              <option name="elementList">
+                <list>
+                  <ColumnConfig>
+                    <option name="selectValue" value="" />
+                    <option name="title" value="disable" />
+                    <option name="type" value="BOOLEAN" />
+                  </ColumnConfig>
+                  <ColumnConfig>
+                    <option name="selectValue" value="add,edit,query,del,ui" />
+                    <option name="title" value="support" />
+                    <option name="type" value="SELECT" />
+                  </ColumnConfig>
+                </list>
+              </option>
+              <option name="name" value="Default" />
+            </ColumnConfigGroup>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="currColumnConfigGroupName" value="Default" />
     <option name="currGlobalConfigGroupName" value="luna-easycode-swagger" />
     <option name="currTemplateGroupName" value="luna-easycode-version" />
+    <option name="currTypeMapperGroupName" value="Default" />
     <option name="globalConfigGroupMap">
       <map>
         <entry key="Default">
@@ -510,6 +537,16 @@
                     <option name="columnType" value="demoColumn" />
                     <option name="javaType" value="java.lang.Object" />
                   </TypeMapper>
+                  <TypeMapper>
+                    <option name="columnType" value="bigint(20) unsigned" />
+                    <option name="javaType" value="java.lang.Long" />
+                    <option name="matchType" value="ORDINARY" />
+                  </TypeMapper>
+                  <TypeMapper>
+                    <option name="columnType" value="mediumtext" />
+                    <option name="javaType" value="java.lang.String" />
+                    <option name="matchType" value="ORDINARY" />
+                  </TypeMapper>
                 </list>
               </option>
               <option name="name" value="Default" />
@@ -597,5 +634,6 @@
         </entry>
       </map>
     </option>
+    <option name="version" value="1.2.4" />
   </component>
 </application>
