@@ -6,6 +6,7 @@
     <option name="newTranslationDialogY" value="149" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="this method has a drawback, when the fx item setting has default setting shop_bonus_fx_sku_ids has value : some skuId's setting is default and other skudId's setting is custom" />
       <item value="write" />
       <item value="fifteen same level bonus fans" />
       <item value="five diff level bonus fans" />
@@ -16,7 +17,6 @@
       <item value="Sets the size - indicating how many term buckets should be returned" />
       <item value="指定" />
       <item value="get all bonusDTO belong the level" />
-      <item value="this method has a drawback, when the fx item setting has default setting shop_bonus_fx_sku_ids has value : some skuId's setting is default and other skudId's setting is custom" />
       <item value="shop_bonus_fx_sku_ids has value : some skuId's setting is default and other skudId's setting is custom" />
       <item value="Poster" />
       <item value="Not only is it a great method for avoiding thread blocking of redis, ie. deleting big object, it can also be extremely important for averting exception problems in this thread, ie. cannot del expire key when exception happen." />
@@ -59,8 +59,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="18" />
-        <entry key="ENGLISH" value="19" />
+        <entry key="CHINESE" value="19" />
+        <entry key="ENGLISH" value="20" />
       </map>
     </option>
   </component>
