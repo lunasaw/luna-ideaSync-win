@@ -6,6 +6,7 @@
     <option name="newTranslationDialogY" value="149" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Bouns" />
       <item value="this method has a drawback, when the fx item setting has default setting shop_bonus_fx_sku_ids has value : some skuId's setting is default and other skudId's setting is custom" />
       <item value="write" />
       <item value="fifteen same level bonus fans" />
@@ -55,16 +56,16 @@
       <item value="Take an array of strings and split each element based on the given delimiter. A {@code Properties} instance is then generated, with the left of the delimiter providing the key, and the right of the delimiter providing the value." />
       <item value="Convert a comma delimited list (e.g., a row from a CSV file) into an array of strings." />
       <item value="System property that instructs Spring to ignore system environment variables," />
-      <item value="Inherit Environment if possible" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="19" />
+        <entry key="CHINESE" value="20" />
         <entry key="ENGLISH" value="20" />
+        <entry key="HINDI" value="1" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1637042859092" />
+    <option name="lastTrimTime" value="1638358742065" />
   </component>
 </application>
