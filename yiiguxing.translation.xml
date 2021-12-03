@@ -6,6 +6,7 @@
     <option name="newTranslationDialogY" value="149" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="commission" />
       <item value="COMMISSION" />
       <item value="Commsion" />
       <item value="Bouns" />
@@ -55,12 +56,11 @@
       <item value="frozen" />
       <item value="Create the {@link XmlReaderContext} to pass over to the document reader." />
       <item value="reading bean definitions from an XML document." />
-      <item value="Take an array of strings and split each element based on the given delimiter. A {@code Properties} instance is then generated, with the left of the delimiter providing the key, and the right of the delimiter providing the value." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="21" />
-        <entry key="ENGLISH" value="22" />
+        <entry key="CHINESE" value="22" />
+        <entry key="ENGLISH" value="23" />
         <entry key="HINDI" value="2" />
       </map>
     </option>
