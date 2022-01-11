@@ -12,5 +12,6 @@
     <option name="INTRODUCE_CONSTANT_VISIBILITY" value="private" />
     <option name="INTRODUCE_CONSTANT_MOVE_TO_ANOTHER_CLASS" value="true" />
     <option name="INTRODUCE_LOCAL_CREATE_FINALS" value="false" />
+    <option name="RENAME_ACCESSORS" value="false" />
   </component>
 </application>
