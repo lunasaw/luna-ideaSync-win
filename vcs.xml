@@ -94,9 +94,13 @@
           <option name="url" value="http://github.com" />
           <option name="userName" value="iszychen@gmail.com" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/wonderfulMorty/BooksManageSys" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="D:\graduation-project" />
+    <option name="cloneParentDir" value="D:\myproject" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="COLUMN_ID_ORDER">
