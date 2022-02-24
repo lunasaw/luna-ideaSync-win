@@ -6,6 +6,7 @@
     <option name="newTranslationDialogY" value="149" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Returns true indicating this GregorianCalendar supports week dates." />
       <item value="commission" />
       <item value="COMMISSION" />
       <item value="Commsion" />
@@ -55,17 +56,16 @@
       <item value="Get the role hint for this {@code BeanDefinition}. The role hint provides the frameworks as well as tools with an indication of the role and importance of a particular {@code BeanDefinition}." />
       <item value="frozen" />
       <item value="Create the {@link XmlReaderContext} to pass over to the document reader." />
-      <item value="reading bean definitions from an XML document." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="22" />
-        <entry key="ENGLISH" value="23" />
+        <entry key="CHINESE" value="23" />
+        <entry key="ENGLISH" value="24" />
         <entry key="HINDI" value="2" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1638358742065" />
+    <option name="lastTrimTime" value="1645691573119" />
   </component>
 </application>
