@@ -6,6 +6,7 @@
     <option name="newTranslationDialogY" value="149" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Creates a HashMap instance, with a high enough &quot;initial capacity&quot; that it should hold expectedSize elements without growth. This behavior cannot be broadly guaranteed, but it is observed to be true for OpenJDK 1.6. It also can't be guaranteed that the method isn't inadvertently oversizing the returned map. Params: expectedSize – the number of elements you expect to add to the returned map" />
       <item value="Returns true indicating this GregorianCalendar supports week dates." />
       <item value="commission" />
       <item value="COMMISSION" />
@@ -55,12 +56,11 @@
       <item value="Configure the factory's standard context characteristics, such as the context's ClassLoader and post-processors." />
       <item value="Get the role hint for this {@code BeanDefinition}. The role hint provides the frameworks as well as tools with an indication of the role and importance of a particular {@code BeanDefinition}." />
       <item value="frozen" />
-      <item value="Create the {@link XmlReaderContext} to pass over to the document reader." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="23" />
-        <entry key="ENGLISH" value="24" />
+        <entry key="CHINESE" value="24" />
+        <entry key="ENGLISH" value="25" />
         <entry key="HINDI" value="2" />
       </map>
     </option>
