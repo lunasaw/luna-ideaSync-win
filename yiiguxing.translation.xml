@@ -6,8 +6,9 @@
     <option name="newTranslationDialogY" value="149" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
-      <item value="Rounding mode to round towards &quot;nearest neighbor&quot; unless both neighbors are equidistant, in which case round up. Behaves as for RoundingMode.UP if the discarded fraction is ≥ 0.5; otherwise, behaves as for RoundingMode.DOWN. Note that this is the rounding mode commonly taught at school." />
+      <item value="Returns a string representation of this BigDecimal without an exponent field. For values with a positive scale, the number of digits to the right of the decimal point is used to indicate scale. For values with a zero or negative scale, the resulting string is generated as if the value were converted to a numerically equal value with zero scale and as if all the trailing zeros of the zero scale value were present in the result. The entire string is prefixed by a minus sign character '-' ('\u002D') if the unscaled value is less than zero. No sign character is prefixed if the unscaled value is zero or positive. Note that if the result of this method is passed to the string constructor, only the numerical value of this BigDecimal will necessarily be recovered; the representation of the new BigDecimal may have a different scale. In particular, if this BigDecimal has a negative scale, the string resulting from this method will have a scale of zero when processed by the string constructor. (This method behaves analogously to the toString method in 1.4 and earlier releases.)" />
       <item value="Rounding mode to round away from zero. Always increments the digit prior to a non-zero discarded fraction. Note that this rounding mode never decreases the magnitude of the calculated value." />
+      <item value="Rounding mode to round towards &quot;nearest neighbor&quot; unless both neighbors are equidistant, in which case round up. Behaves as for RoundingMode.UP if the discarded fraction is ≥ 0.5; otherwise, behaves as for RoundingMode.DOWN. Note that this is the rounding mode commonly taught at school." />
       <item value="Creates a HashMap instance, with a high enough &quot;initial capacity&quot; that it should hold expectedSize elements without growth. This behavior cannot be broadly guaranteed, but it is observed to be true for OpenJDK 1.6. It also can't be guaranteed that the method isn't inadvertently oversizing the returned map. Params: expectedSize – the number of elements you expect to add to the returned map" />
       <item value="Returns true indicating this GregorianCalendar supports week dates." />
       <item value="commission" />
@@ -55,12 +56,11 @@
       <item value="Detect a LoadTimeWeaver and prepare for weaving, if found." />
       <item value="Register early post-processor for detecting inner beans as ApplicationListeners." />
       <item value="Create a new {@code StandardBeanExpressionResolver} with the given bean class loader, using it as the basis for expression compilation." />
-      <item value="Configure the factory's standard context characteristics, such as the context's ClassLoader and post-processors." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="26" />
-        <entry key="ENGLISH" value="27" />
+        <entry key="CHINESE" value="28" />
+        <entry key="ENGLISH" value="29" />
         <entry key="HINDI" value="2" />
       </map>
     </option>
