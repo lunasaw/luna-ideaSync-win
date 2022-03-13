@@ -6,7 +6,17 @@
     <option name="newTranslationDialogY" value="149" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
-      <item value="Relies on the default charset which is OK since we are not actually writing." />
+      <item value="Mark the present position in the stream. Subsequent calls to reset() will attempt to reposition the stream to this point, and will also reset the line number appropriately. Params: readAheadLimit – Limit on the number of characters that may be read while still preserving the mark. After reading this many characters, attempting to reset the stream may fail." />
+      <item value="An int specifying the line number" />
+      <item value="The number of characters actually skipped" />
+      <item value="Maximum number of characters to read" />
+      <item value="Offset at which to start storing characters" />
+      <item value="An int specifying the size of the buffer" />
+      <item value="Mark the present position in the stream. Subsequent calls to reset() will attempt to reposition the stream to this point, and will also reset the line number appropriately." />
+      <item value="Returns a string representation of this BigDecimal without an exponent field. For values with a positive scale, the number of digits to the right of the decimal point is used to indicate scale. For values with a zero or negative scale, the resulting string is generated as if the value were converted to a numerically equal value with zero scale and as if all the trailing zeros of the zero scale value were present in the result. The entire string is prefixed by a minus sign character '-' ('\u002D') if the unscaled value is less than zero. No sign character is prefixed if the unscaled value is zero or positive. Note that if the result of this method is passed to the string constructor, only the numerical value of this BigDecimal will necessarily be recovered; the representation of the new BigDecimal may have a different scale. In particular, if this BigDecimal has a negative scale, the string resulting from this method will have a scale of zero when processed by the string constructor. (This method behaves analogously to the toString method in 1.4 and earlier releases.)" />
+      <item value="Rounding mode to round away from zero. Always increments the digit prior to a non-zero discarded fraction. Note that this rounding mode never decreases the magnitude of the calculated value." />
+      <item value="Rounding mode to round towards &quot;nearest neighbor&quot; unless both neighbors are equidistant, in which case round up. Behaves as for RoundingMode.UP if the discarded fraction is ≥ 0.5; otherwise, behaves as for RoundingMode.DOWN. Note that this is the rounding mode commonly taught at school." />
+      <item value="Creates a HashMap instance, with a high enough &quot;initial capacity&quot; that it should hold expectedSize elements without growth. This behavior cannot be broadly guaranteed, but it is observed to be true for OpenJDK 1.6. It also can't be guaranteed that the method isn't inadvertently oversizing the returned map. Params: expectedSize – the number of elements you expect to add to the returned map" />
       <item value="Returns true indicating this GregorianCalendar supports week dates." />
       <item value="commission" />
       <item value="COMMISSION" />
@@ -46,26 +56,16 @@
       <item value="Register a default embedded value resolver if no bean post-processor (such as a PropertyPlaceholderConfigurer bean) registered any before: at this point, primarily for resolution in annotation attribute values." />
       <item value="Initialize conversion service for this context." />
       <item value="Instantiate all remaining (non-lazy-init) singletons." />
-      <item value="Finish the initialization of this context's bean factory, initializing all remaining singleton beans." />
-      <item value="Invoke factory processors registered as beans in the context." />
-      <item value="Detect a LoadTimeWeaver and prepare for weaving, if found in the meantime" />
-      <item value="Register default environment beans." />
-      <item value="Detect a LoadTimeWeaver and prepare for weaving, if found." />
-      <item value="Register early post-processor for detecting inner beans as ApplicationListeners." />
-      <item value="Create a new {@code StandardBeanExpressionResolver} with the given bean class loader, using it as the basis for expression compilation." />
-      <item value="Configure the factory's standard context characteristics, such as the context's ClassLoader and post-processors." />
-      <item value="Get the role hint for this {@code BeanDefinition}. The role hint provides the frameworks as well as tools with an indication of the role and importance of a particular {@code BeanDefinition}." />
-      <item value="frozen" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="24" />
-        <entry key="ENGLISH" value="25" />
+        <entry key="CHINESE" value="36" />
+        <entry key="ENGLISH" value="37" />
         <entry key="HINDI" value="2" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1647100639695" />
+    <option name="lastTrimTime" value="1646190451843" />
   </component>
 </application>
