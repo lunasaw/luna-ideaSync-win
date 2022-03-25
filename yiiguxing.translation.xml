@@ -1,17 +1,18 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Execute the annotated method with a fixed period in milliseconds between the end of the last invocation and the start of the next." />
       <item value="@Override public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException { HttpServletRequest req = (HttpServletRequest)request; HttpSession ses = req.getSession(); HttpServletResponse resp = (HttpServletResponse)response; String path = req.getContextPath(); req.setCharacterEncoding(&quot;UTF-8&quot;); 登陆放通 if (LoginVerify.isLogin(req)) { chain.doFilter(request, response); return; } String url = req.getRequestURI(); System.out.println(url); 不需要拦截的请求 List&lt;String&gt; filterPath = Lists.newArrayList(); filterPath.add(path + &quot;login&quot;); filterPath.add(path + &quot;register&quot;); filterPath.add(path + &quot;userregister.jsp&quot;); filterPath.add(path + &quot;userlogin.jsp&quot;); filterPath.add(path + &quot;error.jsp&quot;); 没有登陆 路径为空-&gt;跳转登陆 if (StringUtils.isEmpty(url)) {" />
       <item value="Nullable" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1" />
-        <entry key="ENGLISH" value="3" />
+        <entry key="CHINESE" value="2" />
+        <entry key="ENGLISH" value="4" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1619528329492" />
+    <option name="lastTrimTime" value="1648225490360" />
   </component>
 </application>
