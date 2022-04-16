@@ -18,7 +18,7 @@
       <mapping ext="proproties" type="PLAIN_TEXT" />
       <mapping ext="setting" type="PLAIN_TEXT" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
-      <removed_mapping ext="bat" type="Bat" />
+      <removed_mapping ext="bat" approved="true" type="Bat" />
       <removed_mapping ext="psd" approved="true" type="Image" />
     </extensionMap>
   </component>
