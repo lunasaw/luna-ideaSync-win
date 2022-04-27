@@ -4,8 +4,8 @@
     <option name="newTranslationDialogWidth" value="509" />
     <option name="newTranslationDialogX" value="1356" />
     <option name="newTranslationDialogY" value="149" />
-    <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="the maxHistory property is given to TimeBasedRollingPolicy instead of to the TimeBasedFileNamingAndTriggeringPolicy. This makes it more convenient for the user at the cost of inconsistency here." />
       <item value="Returns true if this either implements the interface argument or is directly or indirectly a wrapper for an object that does. Returns false otherwise. If this implements the interface then return true, else if this is a wrapper then return the result of recursively calling isWrapperFor on the wrapped object. If this does not implement the interface and is not a wrapper, return false. This method should be implemented as a low-cost operation compared to unwrap so that callers can use this method to avoid expensive unwrap calls that may fail. If this method returns true then calling unwrap with the same argument should succeed." />
       <item value="Returns an object that implements the given interface to allow access to non-standard methods, or standard methods not exposed by the proxy. If the receiver implements the interface then the result is the receiver or a proxy for the receiver. If the receiver is a wrapper and the wrapped object implements the interface then the result is the wrapped object or a proxy for the wrapped object. Otherwise return the the result of calling unwrap recursively on the wrapped object or a proxy for that result. If the receiver is not a wrapper and does not implement the interface, then an SQLException is thrown." />
       <item value="Mark the present position in the stream. Subsequent calls to reset() will attempt to reposition the stream to this point, and will also reset the line number appropriately. Params: readAheadLimit – Limit on the number of characters that may be read while still preserving the mark. After reading this many characters, attempting to reset the stream may fail." />
@@ -55,17 +55,16 @@
       <item value="Allow for caching all bean definition metadata, not expecting further changes." />
       <item value="Stop using the temporary ClassLoader for type matching." />
       <item value="Initialize LoadTimeWeaverAware beans early to allow for registering their transformers early." />
-      <item value="Register a default embedded value resolver if no bean post-processor (such as a PropertyPlaceholderConfigurer bean) registered any before: at this point, primarily for resolution in annotation attribute values." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="38" />
-        <entry key="ENGLISH" value="39" />
+        <entry key="CHINESE" value="40" />
+        <entry key="ENGLISH" value="41" />
         <entry key="HINDI" value="2" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1647916305252" />
+    <option name="lastTrimTime" value="1651024553606" />
   </component>
 </application>
