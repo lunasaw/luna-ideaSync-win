@@ -1,0 +1,5 @@
+<application>
+  <component name="TerminalOptionsProvider">
+    <option name="myTabName" value="本地" />
+  </component>
+</application>
