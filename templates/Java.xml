@@ -1,0 +1,7 @@
+<templateSet group="Java">
+  <template name="jdoc" value="&lt;img width=&quot;600&quot; height=&quot;400&quot; src=&quot;&quot; alt=&quot;&quot;&gt;" description="javadoc img" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
