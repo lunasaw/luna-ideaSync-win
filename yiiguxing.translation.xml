@@ -5,6 +5,8 @@
     <option name="newTranslationDialogX" value="593" />
     <option name="newTranslationDialogY" value="25" />
     <histories>
+      <item value="The length of the array is the number of methods on the execution stack. The element at index 0 is the class of the currently executing method, the element at index 1 is the class of that method's caller, and so on." />
+      <item value="Returns the current execution stack as an array of classes." />
       <item value="if true, then the String will be added to the end of the file rather than overwriting" />
       <item value="Defines zero (0) or more exception classes, which must be subclasses of Throwable, indicating which exception types must cause a transaction rollback. By default, a transaction will be rolled back on RuntimeException and Error but not on checked exceptions (business exceptions). See org.springframework.transaction.interceptor.DefaultTransactionAttribute.rollbackOn(Throwable) for a detailed explanation. This is the preferred way to construct a rollback rule (in contrast to rollbackForClassName), matching the exception type, its subclasses, and its nested classes. See the class-level javadocs for further details on rollback rule semantics and warnings regarding possible unintentional matches." />
       <item value="Defines zero (0) or more exception classes, which must be subclasses of Throwable, indicating which exception types must cause a transaction rollback. By default, a transaction will be rolled back on RuntimeException and Error but not on checked exceptions (business exceptions). See org.springframework.transaction.interceptor.DefaultTransactionAttribute.rollbackOn(Throwable) for a detailed explanation." />
@@ -53,18 +55,16 @@
       <item value="Map of singleton-only bean names, keyed by dependency type." />
       <item value="Return whether the given throwable is a checked exception: that is, neither a RuntimeException nor an Error." />
       <item value="Parses the supplied {@code &lt;bean&gt;} element. May return {@code null} if there were errors during parse. Errors are reported to the" />
-      <item value="Create a new BeanComponentDefinition for the given bean." />
-      <item value="Process the given bean element, parsing the bean definition and registering it with the registry." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="45" />
-        <entry key="ENGLISH" value="46" />
+        <entry key="CHINESE" value="47" />
+        <entry key="ENGLISH" value="48" />
         <entry key="HINDI" value="2" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1651593122853" />
+    <option name="lastTrimTime" value="1658746179117" />
   </component>
 </application>
