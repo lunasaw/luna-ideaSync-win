@@ -165,6 +165,17 @@
             <PluginData />
           </value>
         </entry>
+        <entry key="com.intellij.ideolog">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.lang" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
         <entry key="com.intellij.zh">
           <value>
             <PluginData>
@@ -185,7 +196,6 @@
                   <option value="com.jetbrains.projector.libs" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
