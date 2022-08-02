@@ -110,6 +110,10 @@
           <option name="url" value="https://gitee.com/qiao_wei112211/atom-master" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/lunasaw/luna-exam.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/project" />
