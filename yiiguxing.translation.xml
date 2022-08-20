@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="593" />
     <option name="newTranslationDialogY" value="25" />
     <histories>
+      <item value="Performs the given action for each remaining element until all elements have been processed or the action throws an exception. Actions are performed in the order of iteration, if that order is specified. Exceptions thrown by the action are relayed to the caller." />
       <item value="The length of the array is the number of methods on the execution stack. The element at index 0 is the class of the currently executing method, the element at index 1 is the class of that method's caller, and so on." />
       <item value="Returns the current execution stack as an array of classes." />
       <item value="if true, then the String will be added to the end of the file rather than overwriting" />
@@ -54,17 +55,16 @@
       <item value="List of bean definition names, in registration order." />
       <item value="Map of singleton-only bean names, keyed by dependency type." />
       <item value="Return whether the given throwable is a checked exception: that is, neither a RuntimeException nor an Error." />
-      <item value="Parses the supplied {@code &lt;bean&gt;} element. May return {@code null} if there were errors during parse. Errors are reported to the" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="47" />
-        <entry key="ENGLISH" value="48" />
+        <entry key="CHINESE" value="48" />
+        <entry key="ENGLISH" value="49" />
         <entry key="HINDI" value="2" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1658746179117" />
+    <option name="lastTrimTime" value="1660995604607" />
   </component>
 </application>
