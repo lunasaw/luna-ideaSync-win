@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="593" />
     <option name="newTranslationDialogY" value="25" />
     <histories>
+      <item value="Special EventExecutorGroup which allows registering Channels that get processed for later selection during the event loop." />
       <item value="Trim trailing whitespace from the given {@code String}." />
       <item value="Trim leading whitespace from the given {@code String}." />
       <item value="Returns the canonical pathname string of this abstract pathname." />
@@ -54,12 +55,11 @@
       <item value="背景图" />
       <item value="Resolve the bean class for the specified bean definition, resolving a bean class name into a Class reference (if necessary) and storing the resolved Class in the bean definition for further use." />
       <item value="Create a bean instance for the given merged bean definition (and arguments). The bean definition will already have been merged with the parent definition in case of a child definition." />
-      <item value="List of names of manually registered singletons, in registration order." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="51" />
-        <entry key="ENGLISH" value="52" />
+        <entry key="CHINESE" value="52" />
+        <entry key="ENGLISH" value="53" />
         <entry key="HINDI" value="2" />
       </map>
     </option>
