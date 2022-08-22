@@ -5,6 +5,8 @@
     <option name="newTranslationDialogX" value="593" />
     <option name="newTranslationDialogY" value="25" />
     <histories>
+      <item value="all other fields defaulted" />
+      <item value="if true, don't change existing value evict – if false, the table is in creation mode." />
       <item value="Special EventExecutorGroup which allows registering Channels that get processed for later selection during the event loop." />
       <item value="Trim trailing whitespace from the given {@code String}." />
       <item value="Trim leading whitespace from the given {@code String}." />
@@ -53,13 +55,11 @@
       <item value="Not only is it a great method for avoiding thread blocking of redis, ie. deleting big object, it can also be extremely important for averting exception problems in this thread, ie. cannot del expire key when exception happen." />
       <item value="Old merge sort implementation can be selected (for compatibility with broken comparators) using a system property. Cannot be a static boolean in the enclosing class due to circular dependencies. To be removed in a future release." />
       <item value="背景图" />
-      <item value="Resolve the bean class for the specified bean definition, resolving a bean class name into a Class reference (if necessary) and storing the resolved Class in the bean definition for further use." />
-      <item value="Create a bean instance for the given merged bean definition (and arguments). The bean definition will already have been merged with the parent definition in case of a child definition." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="52" />
-        <entry key="ENGLISH" value="53" />
+        <entry key="CHINESE" value="54" />
+        <entry key="ENGLISH" value="55" />
         <entry key="HINDI" value="2" />
       </map>
     </option>
