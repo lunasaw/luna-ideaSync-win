@@ -1,0 +1,15 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="SQL" injector-id="java">
+      <display-name>MybatisX Update.value (org.apache.ibatis.annotations)</display-name>
+      <value-pattern>(?:&lt;script&gt;)?(.+?)(?:&lt;\/script&gt;)?</value-pattern>
+      <single-file value="true" />
+      <place disabled="true"><![CDATA[psiMethod().withName("value").withParameters().definedInClass("org.apache.ibatis.annotations.Update")]]></place>
+    </injection>
+    <injection language="MySQL" injector-id="java">
+      <display-name>Update.value (org.apache.ibatis.annotations)</display-name>
+      <single-file value="false" />
+      <place><![CDATA[psiMethod().withName("value").withParameters().definedInClass("org.apache.ibatis.annotations.Update")]]></place>
+    </injection>
+  </component>
+</application>
