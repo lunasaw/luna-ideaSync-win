@@ -287,6 +287,18 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="ink.organics.pojo2jsonwithcomment">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.java" />
+                  <option value="com.intellij.modules.lang" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
         <entry key="net.hexar.json2pojo">
           <value>
             <PluginData />
