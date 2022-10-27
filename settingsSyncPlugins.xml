@@ -148,6 +148,21 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="com.github.beansoft.devkit.helper">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="DevKit" />
+                  <option value="com.intellij.modules.java" />
+                  <option value="com.intellij.modules.lang" />
+                  <option value="com.intellij.modules.platform" />
+                  <option value="com.intellij.modules.xml" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
         <entry key="com.github.copilot">
           <value>
             <PluginData>
@@ -223,6 +238,17 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="com.nasller.CodeGlancePro">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.lang" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
         <entry key="com.sjhy.plugin.easycode">
           <value>
             <PluginData>
@@ -258,7 +284,6 @@
                   <option value="com.intellij.modules.platform" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
