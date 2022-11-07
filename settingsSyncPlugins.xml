@@ -175,6 +175,18 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="com.guidewire.build.ijdevkitmvn">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="DevKit" />
+                  <option value="org.jetbrains.idea.maven" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
         <entry key="com.haulmont.jpab">
           <value>
             <PluginData>
@@ -297,6 +309,11 @@
                 </set>
               </option>
             </PluginData>
+          </value>
+        </entry>
+        <entry key="jetbrains.team.auth">
+          <value>
+            <PluginData />
           </value>
         </entry>
         <entry key="net.hexar.json2pojo">
