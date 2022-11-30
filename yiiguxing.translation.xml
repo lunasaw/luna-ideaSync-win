@@ -5,6 +5,9 @@
     <option name="newTranslationDialogX" value="168" />
     <option name="newTranslationDialogY" value="25" />
     <histories>
+      <item value="Delegation to parent with explicit args" />
+      <item value="arguments to use if creating a prototype using explicit arguments" />
+      <item value="If the specified key is not already associated with a value (or is mapped to null), attempts to compute its value using the given mapping function and enters it into this map unless null. If the function returns null no mapping is recorded. If the function itself throws an (unchecked) exception, the exception is rethrown, and no mapping is recorded. The most common usage is to construct a new object serving as an initial mapped value or memoized result, as in:" />
       <item value="recommend source admin" />
       <item value="the array into which the elements of this list are to be stored, if it is big enough; otherwise, a new array of the same runtime type is allocated for this purpose." />
       <item value="all other fields defaulted" />
@@ -52,19 +55,16 @@
       <item value="Sets the size - indicating how many term buckets should be returned" />
       <item value="指定" />
       <item value="get all bonusDTO belong the level" />
-      <item value="shop_bonus_fx_sku_ids has value : some skuId's setting is default and other skudId's setting is custom" />
-      <item value="Poster" />
-      <item value="Not only is it a great method for avoiding thread blocking of redis, ie. deleting big object, it can also be extremely important for averting exception problems in this thread, ie. cannot del expire key when exception happen." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="56" />
-        <entry key="ENGLISH" value="57" />
+        <entry key="CHINESE" value="59" />
+        <entry key="ENGLISH" value="60" />
         <entry key="HINDI" value="2" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1664503018607" />
+    <option name="lastTrimTime" value="1669787201769" />
   </component>
 </application>
