@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="168" />
     <option name="newTranslationDialogY" value="25" />
     <histories>
+      <item value="Assembly" />
       <item value="Delegation to parent with explicit args" />
       <item value="arguments to use if creating a prototype using explicit arguments" />
       <item value="If the specified key is not already associated with a value (or is mapped to null), attempts to compute its value using the given mapping function and enters it into this map unless null. If the function returns null no mapping is recorded. If the function itself throws an (unchecked) exception, the exception is rethrown, and no mapping is recorded. The most common usage is to construct a new object serving as an initial mapped value or memoized result, as in:" />
@@ -54,17 +55,16 @@
       <item value="here is a hard-coded business logical : the little red group's highest level, which is 6 today" />
       <item value="Sets the size - indicating how many term buckets should be returned" />
       <item value="指定" />
-      <item value="get all bonusDTO belong the level" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="59" />
-        <entry key="ENGLISH" value="60" />
+        <entry key="CHINESE" value="60" />
+        <entry key="ENGLISH" value="61" />
         <entry key="HINDI" value="2" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1669787201769" />
+    <option name="lastTrimTime" value="1670486296340" />
   </component>
 </application>
