@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="168" />
     <option name="newTranslationDialogY" value="25" />
     <histories>
+      <item value="This annotation has been deprecated as of the 3.0.1 release. @EnableDiscoveryClient is no longer needed, discovery client implementations are enabled as long as an implementation is on the classpath. @EnableCircuitBreaker is no longer used now that Hystrix has been removed from Spring Cloud." />
       <item value="Assembly" />
       <item value="Delegation to parent with explicit args" />
       <item value="arguments to use if creating a prototype using explicit arguments" />
@@ -54,12 +55,11 @@
       <item value="no matter the num of relation chain, the search observe the following two rules. 1. search all relation chain when there is no none's level is max level. 2. search first three fans because the level of one of the first three fans is max level, maybe the first, the second or the third. boolean hasMaxLevel = false;" />
       <item value="here is a hard-coded business logical : the little red group's highest level, which is 6 today" />
       <item value="Sets the size - indicating how many term buckets should be returned" />
-      <item value="指定" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="60" />
-        <entry key="ENGLISH" value="61" />
+        <entry key="CHINESE" value="61" />
+        <entry key="ENGLISH" value="62" />
         <entry key="HINDI" value="2" />
       </map>
     </option>
