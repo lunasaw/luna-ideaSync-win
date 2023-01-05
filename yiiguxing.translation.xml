@@ -5,6 +5,8 @@
     <option name="newTranslationDialogX" value="168" />
     <option name="newTranslationDialogY" value="25" />
     <histories>
+      <item value="the period between successive executions" />
+      <item value="the time to delay first execution" />
       <item value="Call on the superclass's implementations of {@code equals} and {@code hashCode} before calculating for the fields in this class. &lt;strong&gt;default: false&lt;strong&gt;" />
       <item value="This annotation has been deprecated as of the 3.0.1 release. @EnableDiscoveryClient is no longer needed, discovery client implementations are enabled as long as an implementation is on the classpath. @EnableCircuitBreaker is no longer used now that Hystrix has been removed from Spring Cloud." />
       <item value="Assembly" />
@@ -53,18 +55,16 @@
       <item value="five diff level bonus fans" />
       <item value="found no record or sharer_uid is null or fans_uid is same with sharer_uid (infinite loop), then break if" />
       <item value="in case of the level of one of the first three fans is six and the third can achieve diff level bonus and its sharer can achieve same level bonus. suppose the level of buyer chain is sequence : 13456666, so wrong code is hasMaxLevel &amp;&amp; retList.size() &gt;= six, which return 134566" />
-      <item value="no matter the num of relation chain, the search observe the following two rules. 1. search all relation chain when there is no none's level is max level. 2. search first three fans because the level of one of the first three fans is max level, maybe the first, the second or the third. boolean hasMaxLevel = false;" />
-      <item value="here is a hard-coded business logical : the little red group's highest level, which is 6 today" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="62" />
-        <entry key="ENGLISH" value="63" />
+        <entry key="CHINESE" value="64" />
+        <entry key="ENGLISH" value="65" />
         <entry key="HINDI" value="2" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1670919485081" />
+    <option name="lastTrimTime" value="1672888268849" />
   </component>
 </application>
