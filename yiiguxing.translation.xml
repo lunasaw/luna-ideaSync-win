@@ -5,6 +5,8 @@
     <option name="newTranslationDialogX" value="168" />
     <option name="newTranslationDialogY" value="25" />
     <histories>
+      <item value="Dummy value to associate with an Object in the backing Map" />
+      <item value="Creates a Spliterator over the elements described by this Iterable. Returns: a Spliterator over the elements described by this Iterable. Implementation Requirements: The default implementation creates an early-binding spliterator from the iterable's Iterator. The spliterator inherits the fail-fast properties of the iterable's iterator. Implementation Note: The default implementation should usually be overridden. The spliterator returned by the default implementation has poor splitting capabilities, is unsized, and does not report any spliterator characteristics. Implementing classes can nearly always provide a better implementation. Since: 1.8" />
       <item value="the period between successive executions" />
       <item value="the time to delay first execution" />
       <item value="Call on the superclass's implementations of {@code equals} and {@code hashCode} before calculating for the fields in this class. &lt;strong&gt;default: false&lt;strong&gt;" />
@@ -53,18 +55,16 @@
       <item value="write" />
       <item value="fifteen same level bonus fans" />
       <item value="five diff level bonus fans" />
-      <item value="found no record or sharer_uid is null or fans_uid is same with sharer_uid (infinite loop), then break if" />
-      <item value="in case of the level of one of the first three fans is six and the third can achieve diff level bonus and its sharer can achieve same level bonus. suppose the level of buyer chain is sequence : 13456666, so wrong code is hasMaxLevel &amp;&amp; retList.size() &gt;= six, which return 134566" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="64" />
-        <entry key="ENGLISH" value="65" />
+        <entry key="CHINESE" value="66" />
+        <entry key="ENGLISH" value="67" />
         <entry key="HINDI" value="2" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1672888268849" />
+    <option name="lastTrimTime" value="1674985354762" />
   </component>
 </application>
