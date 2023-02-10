@@ -261,6 +261,17 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="com.robohorse.robopojogenerator">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.lang" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
         <entry key="com.sjhy.plugin.easycode">
           <value>
             <PluginData>
