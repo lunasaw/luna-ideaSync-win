@@ -5,6 +5,8 @@
     <option name="newTranslationDialogX" value="168" />
     <option name="newTranslationDialogY" value="25" />
     <histories>
+      <item value="Set multiple keys to multiple values, only if none of the keys exist with pipelining. Cross-slot keys will result in multiple calls to the particular cluster nodes." />
+      <item value="Set multiple keys to multiple values with pipelining. Cross-slot keys will result in multiple calls to the particular cluster nodes." />
       <item value="Loads a new value for key, possibly asynchronously. While the new value is loading the previous value (if any) will continue to be returned by get(key) unless it is evicted. If the new value is loaded successfully it will replace the previous value in the cache; if an exception is thrown while refreshing the previous value will remain, and the exception will be logged (using java.util.logging.Logger) and swallowed." />
       <item value="Returns the value associated with key in this cache, first loading that value if necessary. No observable state associated with this cache is modified until loading completes. Unlike get, this method does not throw a checked exception, and thus should only be used in situations where checked exceptions are not thrown by the cache loader." />
       <item value="Dummy value to associate with an Object in the backing Map" />
@@ -53,18 +55,16 @@
       <item value="COMMISSION" />
       <item value="Commsion" />
       <item value="Bouns" />
-      <item value="this method has a drawback, when the fx item setting has default setting shop_bonus_fx_sku_ids has value : some skuId's setting is default and other skudId's setting is custom" />
-      <item value="write" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="68" />
-        <entry key="ENGLISH" value="69" />
+        <entry key="CHINESE" value="71" />
+        <entry key="ENGLISH" value="72" />
         <entry key="HINDI" value="2" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1674985354762" />
+    <option name="lastTrimTime" value="1677036300981" />
   </component>
 </application>
