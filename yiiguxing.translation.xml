@@ -5,6 +5,8 @@
     <option name="newTranslationDialogX" value="168" />
     <option name="newTranslationDialogY" value="25" />
     <histories>
+      <item value="the duration of the period where the RateLimiter ramps up its rate, before reaching its stable (maximum) rate" />
+      <item value="the rate of the returned RateLimiter, measured in how many permits become available per second" />
       <item value="Set multiple keys to multiple values, only if none of the keys exist with pipelining. Cross-slot keys will result in multiple calls to the particular cluster nodes." />
       <item value="Set multiple keys to multiple values with pipelining. Cross-slot keys will result in multiple calls to the particular cluster nodes." />
       <item value="Loads a new value for key, possibly asynchronously. While the new value is loading the previous value (if any) will continue to be returned by get(key) unless it is evicted. If the new value is loaded successfully it will replace the previous value in the cache; if an exception is thrown while refreshing the previous value will remain, and the exception will be logged (using java.util.logging.Logger) and swallowed." />
@@ -53,18 +55,16 @@
       <item value="Returns true indicating this GregorianCalendar supports week dates." />
       <item value="commission" />
       <item value="COMMISSION" />
-      <item value="Commsion" />
-      <item value="Bouns" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="71" />
-        <entry key="ENGLISH" value="72" />
+        <entry key="CHINESE" value="73" />
+        <entry key="ENGLISH" value="74" />
         <entry key="HINDI" value="2" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1677036300981" />
+    <option name="lastTrimTime" value="1677554084619" />
   </component>
 </application>
