@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="168" />
     <option name="newTranslationDialogY" value="25" />
     <histories>
+      <item value="instead" />
       <item value="occurred evaluating" />
       <item value="true if the permit was acquired, false otherwise" />
       <item value="Return whether this helper will validate all addresses passed to it." />
@@ -54,12 +55,11 @@
       <item value="Mark the present position in the stream. Subsequent calls to reset() will attempt to reposition the stream to this point, and will also reset the line number appropriately." />
       <item value="Returns a string representation of this BigDecimal without an exponent field. For values with a positive scale, the number of digits to the right of the decimal point is used to indicate scale. For values with a zero or negative scale, the resulting string is generated as if the value were converted to a numerically equal value with zero scale and as if all the trailing zeros of the zero scale value were present in the result. The entire string is prefixed by a minus sign character '-' ('\u002D') if the unscaled value is less than zero. No sign character is prefixed if the unscaled value is zero or positive. Note that if the result of this method is passed to the string constructor, only the numerical value of this BigDecimal will necessarily be recovered; the representation of the new BigDecimal may have a different scale. In particular, if this BigDecimal has a negative scale, the string resulting from this method will have a scale of zero when processed by the string constructor. (This method behaves analogously to the toString method in 1.4 and earlier releases.)" />
       <item value="Rounding mode to round away from zero. Always increments the digit prior to a non-zero discarded fraction. Note that this rounding mode never decreases the magnitude of the calculated value." />
-      <item value="Rounding mode to round towards &quot;nearest neighbor&quot; unless both neighbors are equidistant, in which case round up. Behaves as for RoundingMode.UP if the discarded fraction is ≥ 0.5; otherwise, behaves as for RoundingMode.DOWN. Note that this is the rounding mode commonly taught at school." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="77" />
-        <entry key="ENGLISH" value="78" />
+        <entry key="CHINESE" value="78" />
+        <entry key="ENGLISH" value="79" />
         <entry key="HINDI" value="2" />
       </map>
     </option>
