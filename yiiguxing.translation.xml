@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="168" />
     <option name="newTranslationDialogY" value="25" />
     <histories>
+      <item value="occurred evaluating" />
       <item value="true if the permit was acquired, false otherwise" />
       <item value="Return whether this helper will validate all addresses passed to it." />
       <item value="It is important to note that the number of permits requested never affect the throttling of the request itself (an invocation to acquire(1) and an invocation to acquire(1000) will result in exactly the same throttling, if any), but it affects the throttling of the next request. I.e., if an expensive task arrives at an idle RateLimiter, it will be granted immediately, but it is the next request that will experience extra throttling, thus paying for the cost of the expensive task." />
@@ -54,12 +55,11 @@
       <item value="Returns a string representation of this BigDecimal without an exponent field. For values with a positive scale, the number of digits to the right of the decimal point is used to indicate scale. For values with a zero or negative scale, the resulting string is generated as if the value were converted to a numerically equal value with zero scale and as if all the trailing zeros of the zero scale value were present in the result. The entire string is prefixed by a minus sign character '-' ('\u002D') if the unscaled value is less than zero. No sign character is prefixed if the unscaled value is zero or positive. Note that if the result of this method is passed to the string constructor, only the numerical value of this BigDecimal will necessarily be recovered; the representation of the new BigDecimal may have a different scale. In particular, if this BigDecimal has a negative scale, the string resulting from this method will have a scale of zero when processed by the string constructor. (This method behaves analogously to the toString method in 1.4 and earlier releases.)" />
       <item value="Rounding mode to round away from zero. Always increments the digit prior to a non-zero discarded fraction. Note that this rounding mode never decreases the magnitude of the calculated value." />
       <item value="Rounding mode to round towards &quot;nearest neighbor&quot; unless both neighbors are equidistant, in which case round up. Behaves as for RoundingMode.UP if the discarded fraction is ≥ 0.5; otherwise, behaves as for RoundingMode.DOWN. Note that this is the rounding mode commonly taught at school." />
-      <item value="Creates a HashMap instance, with a high enough &quot;initial capacity&quot; that it should hold expectedSize elements without growth. This behavior cannot be broadly guaranteed, but it is observed to be true for OpenJDK 1.6. It also can't be guaranteed that the method isn't inadvertently oversizing the returned map. Params: expectedSize – the number of elements you expect to add to the returned map" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="76" />
-        <entry key="ENGLISH" value="77" />
+        <entry key="CHINESE" value="77" />
+        <entry key="ENGLISH" value="78" />
         <entry key="HINDI" value="2" />
       </map>
     </option>
