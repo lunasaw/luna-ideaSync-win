@@ -5,6 +5,24 @@
     <option name="newTranslationDialogX" value="168" />
     <option name="newTranslationDialogY" value="25" />
     <histories>
+      <item value="Register bean processors that intercept bean creation." />
+      <item value="Allows post-processing of the bean factory in context subclasses." />
+      <item value="Set a temporary ClassLoader for type matching." />
+      <item value="Name of the LoadTimeWeaver bean in the factory. If such a bean is supplied, the context will use a temporary ClassLoader for type matching, in order to allow the LoadTimeWeaver to process all actual bean classes." />
+      <item value="Detect a LoadTimeWeaver and prepare for weaving, if found." />
+      <item value="Register early post-processor for detecting inner beans as ApplicationListeners." />
+      <item value="BeanFactory interface not registered as resolvable type in a plain factory. MessageSource registered (and found for autowiring) as a bean." />
+      <item value="Tell the internal bean factory to use the context's class loader etc." />
+      <item value="Configure the factory's standard context characteristics, such as the context's ClassLoader and post-processors." />
+      <item value="Configure the bean factory with context callbacks." />
+      <item value="Prepare the bean factory for use in this context" />
+      <item value="Subclasses must implement this method to perform the actual configuration load. The method is invoked by refresh() before any other initialization work. A subclass will either create a new bean factory and hold a reference to it, or return a single BeanFactory instance that it holds. In the latter case, it will usually throw an IllegalStateException if refreshing the context more than once." />
+      <item value="Tell the subclass to refresh the internal bean factory." />
+      <item value="Validate that all properties marked as required are resolvable: see ConfigurablePropertyResolversetRequiredProperties" />
+      <item value="Replace any stub property sources with actual instances. Replace Servlet-related property sources." />
+      <item value="Initialize any placeholder property sources in the context environment." />
+      <item value="Flag that indicates whether this context has been closed already." />
+      <item value="Flag that indicates whether this context is currently active." />
       <item value="Replaces all placeholders of format {name} with the value returned from the supplied" />
       <item value="Servlet config init parameters property source name: &quot;servletConfigInitParams&quot;." />
       <item value="Customize the set of property sources with those contributed by superclasses as well as those appropriate for standard servlet-based environments:" />
@@ -29,7 +47,6 @@
       <item value="Return the default ClassLoader to use: typically the thread context ClassLoader, if available; the ClassLoader that loaded the ClassUtils class will be used as fallback. &lt;p&gt;Call this method if you intend to use the thread context ClassLoader in a scenario where you clearly prefer a non-null ClassLoader reference: for example, for class path resource loading (but not necessarily for" />
       <item value="Cannot access system ClassLoader - oh well, maybe the caller can live with null..." />
       <item value="Cannot access thread context ClassLoader - falling back..." />
-      <item value="Tell the subclass to refresh the internal bean factory." />
       <item value="Prepare this context for refreshing." />
       <item value="instead" />
       <item value="occurred evaluating" />
@@ -38,28 +55,11 @@
       <item value="It is important to note that the number of permits requested never affect the throttling of the request itself (an invocation to acquire(1) and an invocation to acquire(1000) will result in exactly the same throttling, if any), but it affects the throttling of the next request. I.e., if an expensive task arrives at an idle RateLimiter, it will be granted immediately, but it is the next request that will experience extra throttling, thus paying for the cost of the expensive task." />
       <item value="the duration of the period where the RateLimiter ramps up its rate, before reaching its stable (maximum) rate" />
       <item value="the rate of the returned RateLimiter, measured in how many permits become available per second" />
-      <item value="Set multiple keys to multiple values, only if none of the keys exist with pipelining. Cross-slot keys will result in multiple calls to the particular cluster nodes." />
-      <item value="Set multiple keys to multiple values with pipelining. Cross-slot keys will result in multiple calls to the particular cluster nodes." />
-      <item value="Loads a new value for key, possibly asynchronously. While the new value is loading the previous value (if any) will continue to be returned by get(key) unless it is evicted. If the new value is loaded successfully it will replace the previous value in the cache; if an exception is thrown while refreshing the previous value will remain, and the exception will be logged (using java.util.logging.Logger) and swallowed." />
-      <item value="Returns the value associated with key in this cache, first loading that value if necessary. No observable state associated with this cache is modified until loading completes. Unlike get, this method does not throw a checked exception, and thus should only be used in situations where checked exceptions are not thrown by the cache loader." />
-      <item value="Dummy value to associate with an Object in the backing Map" />
-      <item value="Creates a Spliterator over the elements described by this Iterable. Returns: a Spliterator over the elements described by this Iterable. Implementation Requirements: The default implementation creates an early-binding spliterator from the iterable's Iterator. The spliterator inherits the fail-fast properties of the iterable's iterator. Implementation Note: The default implementation should usually be overridden. The spliterator returned by the default implementation has poor splitting capabilities, is unsized, and does not report any spliterator characteristics. Implementing classes can nearly always provide a better implementation. Since: 1.8" />
-      <item value="the period between successive executions" />
-      <item value="the time to delay first execution" />
-      <item value="Call on the superclass's implementations of {@code equals} and {@code hashCode} before calculating for the fields in this class. &lt;strong&gt;default: false&lt;strong&gt;" />
-      <item value="This annotation has been deprecated as of the 3.0.1 release. @EnableDiscoveryClient is no longer needed, discovery client implementations are enabled as long as an implementation is on the classpath. @EnableCircuitBreaker is no longer used now that Hystrix has been removed from Spring Cloud." />
-      <item value="Assembly" />
-      <item value="Delegation to parent with explicit args" />
-      <item value="arguments to use if creating a prototype using explicit arguments" />
-      <item value="If the specified key is not already associated with a value (or is mapped to null), attempts to compute its value using the given mapping function and enters it into this map unless null. If the function returns null no mapping is recorded. If the function itself throws an (unchecked) exception, the exception is rethrown, and no mapping is recorded. The most common usage is to construct a new object serving as an initial mapped value or memoized result, as in:" />
-      <item value="recommend source admin" />
-      <item value="the array into which the elements of this list are to be stored, if it is big enough; otherwise, a new array of the same runtime type is allocated for this purpose." />
-      <item value="all other fields defaulted" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="105" />
-        <entry key="ENGLISH" value="106" />
+        <entry key="CHINESE" value="123" />
+        <entry key="ENGLISH" value="124" />
         <entry key="HINDI" value="2" />
       </map>
     </option>
