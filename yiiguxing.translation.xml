@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="168" />
     <option name="newTranslationDialogY" value="25" />
     <histories>
+      <item value="Returns the current value of the running Java Virtual Machine's high-resolution time source, in nanoseconds. This method can only be used to measure elapsed time and is not related to any other notion of system or wall-clock time. The value returned represents nanoseconds since some fixed but arbitrary origin time (perhaps in the future, so values may be negative). The same origin is used by all invocations of this method in an instance of a Java virtual machine; other virtual machine instances are likely to use a different origin." />
       <item value="If a security manager is present, and the caller's class loader is not {@code null}, and the caller's class loader is not the same as or an ancestor of the platform class loader, and the caller does not have the" />
       <item value="The name of the builtin platform class loader is" />
       <item value="Return the default ClassLoader to use: typically the thread context ClassLoader, if available; the ClassLoader that loaded the ClassUtils class will be used as fallback. &lt;p&gt;Call this method if you intend to use the thread context ClassLoader in a scenario where you clearly prefer a non-null ClassLoader reference: for example, for class path resource loading (but not necessarily for {@code Class.forName}, which accepts a {@code null} ClassLoader" />
@@ -54,12 +55,11 @@
       <item value="the maxHistory property is given to TimeBasedRollingPolicy instead of to the TimeBasedFileNamingAndTriggeringPolicy. This makes it more convenient for the user at the cost of inconsistency here." />
       <item value="Returns true if this either implements the interface argument or is directly or indirectly a wrapper for an object that does. Returns false otherwise. If this implements the interface then return true, else if this is a wrapper then return the result of recursively calling isWrapperFor on the wrapped object. If this does not implement the interface and is not a wrapper, return false. This method should be implemented as a low-cost operation compared to unwrap so that callers can use this method to avoid expensive unwrap calls that may fail. If this method returns true then calling unwrap with the same argument should succeed." />
       <item value="Returns an object that implements the given interface to allow access to non-standard methods, or standard methods not exposed by the proxy. If the receiver implements the interface then the result is the receiver or a proxy for the receiver. If the receiver is a wrapper and the wrapped object implements the interface then the result is the wrapped object or a proxy for the wrapped object. Otherwise return the the result of calling unwrap recursively on the wrapped object or a proxy for that result. If the receiver is not a wrapper and does not implement the interface, then an SQLException is thrown." />
-      <item value="Mark the present position in the stream. Subsequent calls to reset() will attempt to reposition the stream to this point, and will also reset the line number appropriately. Params: readAheadLimit – Limit on the number of characters that may be read while still preserving the mark. After reading this many characters, attempting to reset the stream may fail." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="86" />
-        <entry key="ENGLISH" value="87" />
+        <entry key="CHINESE" value="87" />
+        <entry key="ENGLISH" value="88" />
         <entry key="HINDI" value="2" />
       </map>
     </option>
