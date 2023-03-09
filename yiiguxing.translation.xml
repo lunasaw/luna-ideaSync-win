@@ -5,6 +5,10 @@
     <option name="newTranslationDialogX" value="168" />
     <option name="newTranslationDialogY" value="25" />
     <histories>
+      <item value="Resolve the given path, replacing placeholders with corresponding environment property values if necessary. Applied to config locations." />
+      <item value="the parent context" />
+      <item value="array of resource locations" />
+      <item value="whether to automatically refresh the context, loading all bean definitions and creating all singletons. Alternatively, call refresh manually after further configuring the context." />
       <item value="Adds the elapsed time from the given start time (ns) to the perf counter." />
       <item value="Performance counter support for internal JRE classes. This class defines a fixed list of counters for the platform to use as an interim solution until RFE 6209222 is implemented. The perf counters will be created in the jvmstat perf buffer that the HotSpot VM creates. The default size is 32K and thus the number of counters is bounded. You can alter the size with -XX:PerfDataMemorySize=&lt;bytes&gt; option. If there is insufficient memory in the jvmstat perf buffer, the C heap memory will be used and thus the application will continue to run if the counters added exceeds the buffer size but the counters will be missing. See HotSpot jvmstat implementation for certain circumstances that the jvmstat perf buffer is not supported." />
       <item value="If true then resolve the class" />
@@ -51,15 +55,11 @@
       <item value="Special EventExecutorGroup which allows registering Channels that get processed for later selection during the event loop." />
       <item value="Trim trailing whitespace from the given {@code String}." />
       <item value="Trim leading whitespace from the given {@code String}." />
-      <item value="Returns the canonical pathname string of this abstract pathname." />
-      <item value="Performs the given action for each remaining element until all elements have been processed or the action throws an exception. Actions are performed in the order of iteration, if that order is specified. Exceptions thrown by the action are relayed to the caller." />
-      <item value="The length of the array is the number of methods on the execution stack. The element at index 0 is the class of the currently executing method, the element at index 1 is the class of that method's caller, and so on." />
-      <item value="Returns the current execution stack as an array of classes." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="97" />
-        <entry key="ENGLISH" value="98" />
+        <entry key="CHINESE" value="101" />
+        <entry key="ENGLISH" value="102" />
         <entry key="HINDI" value="2" />
       </map>
     </option>
