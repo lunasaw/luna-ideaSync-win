@@ -5,6 +5,10 @@
     <option name="newTranslationDialogX" value="168" />
     <option name="newTranslationDialogY" value="25" />
     <histories>
+      <item value="Replaces all placeholders of format {name} with the value returned from the supplied" />
+      <item value="Servlet config init parameters property source name: &quot;servletConfigInitParams&quot;." />
+      <item value="Customize the set of property sources with those contributed by superclasses as well as those appropriate for standard servlet-based environments:" />
+      <item value="Check whether a default JNDI environment, as in a Java EE environment, is available on this JVM. Returns: true if a default InitialContext can be used, false if not" />
       <item value="Resolve the given path, replacing placeholders with corresponding environment property values if necessary. Applied to config locations." />
       <item value="the parent context" />
       <item value="array of resource locations" />
@@ -51,15 +55,11 @@
       <item value="recommend source admin" />
       <item value="the array into which the elements of this list are to be stored, if it is big enough; otherwise, a new array of the same runtime type is allocated for this purpose." />
       <item value="all other fields defaulted" />
-      <item value="if true, don't change existing value evict – if false, the table is in creation mode." />
-      <item value="Special EventExecutorGroup which allows registering Channels that get processed for later selection during the event loop." />
-      <item value="Trim trailing whitespace from the given {@code String}." />
-      <item value="Trim leading whitespace from the given {@code String}." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="101" />
-        <entry key="ENGLISH" value="102" />
+        <entry key="CHINESE" value="105" />
+        <entry key="ENGLISH" value="106" />
         <entry key="HINDI" value="2" />
       </map>
     </option>
