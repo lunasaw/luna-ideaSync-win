@@ -5,6 +5,12 @@
     <option name="newTranslationDialogX" value="168" />
     <option name="newTranslationDialogY" value="25" />
     <histories>
+      <item value="Return the default ClassLoader to use: typically the thread context ClassLoader, if available; the ClassLoader that loaded the ClassUtils class will be used as fallback. &lt;p&gt;Call this method if you intend to use the thread context ClassLoader in a scenario where you clearly prefer a non-null ClassLoader reference: for example, for class path resource loading (but not necessarily for {@code Class.forName}, which accepts a {@code null} ClassLoader" />
+      <item value="Return the default ClassLoader to use: typically the thread context ClassLoader, if available; the ClassLoader that loaded the ClassUtils class will be used as fallback. &lt;p&gt;Call this method if you intend to use the thread context ClassLoader in a scenario where you clearly prefer a non-null ClassLoader reference: for example, for class path resource loading (but not necessarily for" />
+      <item value="Cannot access system ClassLoader - oh well, maybe the caller can live with null..." />
+      <item value="Cannot access thread context ClassLoader - falling back..." />
+      <item value="Tell the subclass to refresh the internal bean factory." />
+      <item value="Prepare this context for refreshing." />
       <item value="instead" />
       <item value="occurred evaluating" />
       <item value="true if the permit was acquired, false otherwise" />
@@ -49,17 +55,11 @@
       <item value="Mark the present position in the stream. Subsequent calls to reset() will attempt to reposition the stream to this point, and will also reset the line number appropriately. Params: readAheadLimit – Limit on the number of characters that may be read while still preserving the mark. After reading this many characters, attempting to reset the stream may fail." />
       <item value="An int specifying the line number" />
       <item value="The number of characters actually skipped" />
-      <item value="Maximum number of characters to read" />
-      <item value="Offset at which to start storing characters" />
-      <item value="An int specifying the size of the buffer" />
-      <item value="Mark the present position in the stream. Subsequent calls to reset() will attempt to reposition the stream to this point, and will also reset the line number appropriately." />
-      <item value="Returns a string representation of this BigDecimal without an exponent field. For values with a positive scale, the number of digits to the right of the decimal point is used to indicate scale. For values with a zero or negative scale, the resulting string is generated as if the value were converted to a numerically equal value with zero scale and as if all the trailing zeros of the zero scale value were present in the result. The entire string is prefixed by a minus sign character '-' ('\u002D') if the unscaled value is less than zero. No sign character is prefixed if the unscaled value is zero or positive. Note that if the result of this method is passed to the string constructor, only the numerical value of this BigDecimal will necessarily be recovered; the representation of the new BigDecimal may have a different scale. In particular, if this BigDecimal has a negative scale, the string resulting from this method will have a scale of zero when processed by the string constructor. (This method behaves analogously to the toString method in 1.4 and earlier releases.)" />
-      <item value="Rounding mode to round away from zero. Always increments the digit prior to a non-zero discarded fraction. Note that this rounding mode never decreases the magnitude of the calculated value." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="78" />
-        <entry key="ENGLISH" value="79" />
+        <entry key="CHINESE" value="84" />
+        <entry key="ENGLISH" value="85" />
         <entry key="HINDI" value="2" />
       </map>
     </option>
