@@ -6,6 +6,7 @@
     <option name="newTranslationDialogY" value="25" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="The pattern (or patterns) to use for the filter, as an alternative to specifying a Class value. If type is set to ASPECTJ, this is an AspectJ type pattern expression. If type is set to REGEX, this is a regex pattern for the fully-qualified class names to match." />
       <item value="Filter candidates matching a given regex pattern." />
       <item value="Filter candidates matching a given AspectJ type pattern expression." />
       <item value="Filter candidates assignable to a given type" />
@@ -55,12 +56,11 @@
       <item value="Initialize any placeholder property sources in the context environment." />
       <item value="Flag that indicates whether this context has been closed already." />
       <item value="Flag that indicates whether this context is currently active." />
-      <item value="Replaces all placeholders of format {name} with the value returned from the supplied" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="152" />
-        <entry key="ENGLISH" value="153" />
+        <entry key="CHINESE" value="153" />
+        <entry key="ENGLISH" value="154" />
         <entry key="HINDI" value="2" />
       </map>
     </option>
