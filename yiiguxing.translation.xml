@@ -4,7 +4,29 @@
     <option name="newTranslationDialogWidth" value="1272" />
     <option name="newTranslationDialogX" value="168" />
     <option name="newTranslationDialogY" value="25" />
+    <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="此属性是其别名的属性的名称" />
+      <item value="The name of the attribute that this attribute is an alias for" />
+      <item value="The optional name of a method to call on the bean instance upon closing the application context, for example a close() method on a JDBC DataSource implementation, or a Hibernate SessionFactory object. The method must have no arguments but may throw any exception." />
+      <item value="Is this bean a candidate for getting autowired into some other bean? Default is true; set this to false for internal delegates that are not meant to get in the way of beans of the same type in other places." />
+      <item value="} factory method argument resolution and {@code @Autowired} processing supersede nametype-based bean property injection" />
+      <item value="factory method argument resolution and" />
+      <item value="The default mode does allow for annotation-driven autowiring. &quot;no&quot; refers to externally driven autowiring only, not affecting any autowiring demands that the bean class itself expresses through annotations." />
+      <item value="Note that this autowire mode is just about externally driven autowiring based on bean property setter methods by convention, analogous to XML bean definitions." />
+      <item value="Are dependencies to be injected via convention-based autowiring by name or type?" />
+      <item value="Specify whether @Bean methods should get proxied in order to enforce bean lifecycle behavior, e.g. to return shared singleton bean instances even in case of direct @Bean method calls in user code. This feature requires method interception, implemented through a runtime-generated CGLIB subclass which comes with limitations such as the configuration class and its methods not being allowed to declare final." />
+      <item value="the explicit component name, if any (or empty String otherwise)" />
+      <item value="class is registered as a traditional XML bean definition, the nameid of the bean element will take precedence." />
+      <item value="element will take precedence." />
+      <item value="applies" />
+      <item value="Explicitly specify the name of the Spring bean definition associated with the @Configuration class. If left unspecified (the common case), a bean name will be automatically generated." />
+      <item value="This post processor is priority-ordered as it is important that any @Bean methods declared in @Configuration classes have their corresponding bean definitions registered before any other BeanFactoryPostProcessor executes." />
+      <item value="A simple example with the former follows:" />
+      <item value="or its web-capable variant," />
+      <item value="classes are typically bootstrapped using either" />
+      <item value="typically" />
+      <item value="Indicates that a class declares one or more {@link Bean @Bean} methods and may be processed by the Spring container to generate bean definitions and service requests for those beans at runtime, for example:" />
       <item value="Register bean processors that intercept bean creation." />
       <item value="Allows post-processing of the bean factory in context subclasses." />
       <item value="Set a temporary ClassLoader for type matching." />
@@ -34,32 +56,11 @@
       <item value="Adds the elapsed time from the given start time (ns) to the perf counter." />
       <item value="Performance counter support for internal JRE classes. This class defines a fixed list of counters for the platform to use as an interim solution until RFE 6209222 is implemented. The perf counters will be created in the jvmstat perf buffer that the HotSpot VM creates. The default size is 32K and thus the number of counters is bounded. You can alter the size with -XX:PerfDataMemorySize=&lt;bytes&gt; option. If there is insufficient memory in the jvmstat perf buffer, the C heap memory will be used and thus the application will continue to run if the counters added exceeds the buffer size but the counters will be missing. See HotSpot jvmstat implementation for certain circumstances that the jvmstat perf buffer is not supported." />
       <item value="If true then resolve the class" />
-      <item value="This method must be called after the module system initialization. The security manager and system class loader may be custom class from the application classpath or modulepath." />
-      <item value="Returns an array containing Method objects reflecting all the declared methods of the class or interface represented by this Class object, including public, protected, default (package) access, and private methods, but excluding inherited methods." />
-      <item value="Returns a Method object that reflects the specified declared method of the class or interface represented by this Class object. The name parameter is a String that specifies the simple name of the desired method, and the parameterTypes parameter is an array of Class objects that identify the method's formal parameter types, in declared order. If more than one method with the same parameter types is declared in a class, and one of these methods has a return type that is more specific than any of the others, that method is returned; otherwise one of the methods is chosen arbitrarily. If the name is &quot;&lt;init&gt;&quot;or &quot;&lt;clinit&gt;&quot; a NoSuchMethodException is raised." />
-      <item value="The parent class loader for delegation Note: VM hardcoded the offset of this field, thus all new fields must be added after it." />
-      <item value="The class of the given name is not found in the parent class loader as well as its local URLClassPath. Check if this class has already been defined dynamically; if so, return the loaded class; otherwise, skip the parent delegation and findClass." />
-      <item value="To compare elapsed time against a timeout, use" />
-      <item value="Returns the current value of the running Java Virtual Machine's high-resolution time source, in nanoseconds. This method can only be used to measure elapsed time and is not related to any other notion of system or wall-clock time. The value returned represents nanoseconds since some fixed but arbitrary origin time (perhaps in the future, so values may be negative). The same origin is used by all invocations of this method in an instance of a Java virtual machine; other virtual machine instances are likely to use a different origin." />
-      <item value="If a security manager is present, and the caller's class loader is not {@code null}, and the caller's class loader is not the same as or an ancestor of the platform class loader, and the caller does not have the" />
-      <item value="The name of the builtin platform class loader is" />
-      <item value="Return the default ClassLoader to use: typically the thread context ClassLoader, if available; the ClassLoader that loaded the ClassUtils class will be used as fallback. &lt;p&gt;Call this method if you intend to use the thread context ClassLoader in a scenario where you clearly prefer a non-null ClassLoader reference: for example, for class path resource loading (but not necessarily for {@code Class.forName}, which accepts a {@code null} ClassLoader" />
-      <item value="Return the default ClassLoader to use: typically the thread context ClassLoader, if available; the ClassLoader that loaded the ClassUtils class will be used as fallback. &lt;p&gt;Call this method if you intend to use the thread context ClassLoader in a scenario where you clearly prefer a non-null ClassLoader reference: for example, for class path resource loading (but not necessarily for" />
-      <item value="Cannot access system ClassLoader - oh well, maybe the caller can live with null..." />
-      <item value="Cannot access thread context ClassLoader - falling back..." />
-      <item value="Prepare this context for refreshing." />
-      <item value="instead" />
-      <item value="occurred evaluating" />
-      <item value="true if the permit was acquired, false otherwise" />
-      <item value="Return whether this helper will validate all addresses passed to it." />
-      <item value="It is important to note that the number of permits requested never affect the throttling of the request itself (an invocation to acquire(1) and an invocation to acquire(1000) will result in exactly the same throttling, if any), but it affects the throttling of the next request. I.e., if an expensive task arrives at an idle RateLimiter, it will be granted immediately, but it is the next request that will experience extra throttling, thus paying for the cost of the expensive task." />
-      <item value="the duration of the period where the RateLimiter ramps up its rate, before reaching its stable (maximum) rate" />
-      <item value="the rate of the returned RateLimiter, measured in how many permits become available per second" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="123" />
-        <entry key="ENGLISH" value="124" />
+        <entry key="CHINESE" value="143" />
+        <entry key="ENGLISH" value="143" />
         <entry key="HINDI" value="2" />
       </map>
     </option>
