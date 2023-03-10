@@ -6,6 +6,9 @@
     <option name="newTranslationDialogY" value="25" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Specify a temporary ClassLoader to use for type matching purposes. Default is none, simply using the standard bean ClassLoader. A temporary ClassLoader is usually just specified if load-time weaving is involved, to make sure that actual bean classes are loaded as lazily as possible. The temporary loader is then removed once the BeanFactory completes its bootstrap phase." />
+      <item value="Scope identifier for the standard prototype scope: {@value}." />
+      <item value="Specifies whether a component should be configured as a scoped proxy and if so, whether the proxy should be interface-based or subclass-based." />
       <item value="Specify whether scanned beans should be registered for lazy initialization. Default is false; switch this to true when desired." />
       <item value="The pattern (or patterns) to use for the filter, as an alternative to specifying a Class value. If type is set to ASPECTJ, this is an AspectJ type pattern expression. If type is set to REGEX, this is a regex pattern for the fully-qualified class names to match." />
       <item value="Filter candidates matching a given regex pattern." />
@@ -53,14 +56,11 @@
       <item value="Subclasses must implement this method to perform the actual configuration load. The method is invoked by refresh() before any other initialization work. A subclass will either create a new bean factory and hold a reference to it, or return a single BeanFactory instance that it holds. In the latter case, it will usually throw an IllegalStateException if refreshing the context more than once." />
       <item value="Tell the subclass to refresh the internal bean factory." />
       <item value="Validate that all properties marked as required are resolvable: see ConfigurablePropertyResolversetRequiredProperties" />
-      <item value="Replace any stub property sources with actual instances. Replace Servlet-related property sources." />
-      <item value="Initialize any placeholder property sources in the context environment." />
-      <item value="Flag that indicates whether this context has been closed already." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="154" />
-        <entry key="ENGLISH" value="155" />
+        <entry key="CHINESE" value="157" />
+        <entry key="ENGLISH" value="158" />
         <entry key="HINDI" value="2" />
       </map>
     </option>
