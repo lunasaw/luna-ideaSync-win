@@ -6,6 +6,16 @@
     <option name="newTranslationDialogY" value="25" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Filter candidates matching a given regex pattern." />
+      <item value="Filter candidates matching a given AspectJ type pattern expression." />
+      <item value="Filter candidates assignable to a given type" />
+      <item value="Filter candidates marked with a given annotation." />
+      <item value="Default typically equals NO, unless a different default has been configured at the component-scan instruction level." />
+      <item value="Enumerates the various scoped-proxy options. For a more complete discussion of exactly what a scoped proxy is, see the section of the Spring reference documentation entitled 'Scoped beans as dependencies'." />
+      <item value="Strategy interface for generating bean names for bean definitions." />
+      <item value="Derive a default bean name from the given bean definition. &lt;p&gt;The default implementation simply builds a decapitalized version of the short class name: e.g. &quot;mypackage.MyJdbcDao&quot; &amp;rarr; &quot;myJdbcDao&quot;. &lt;p&gt;Note that inner classes will thus have names of the form &quot;outerClassName.InnerClassName&quot;, which because of the period in the name may be an issue if you are autowiring by name. @param definition the bean definition to build a bean name for @return the default bean name (never {@code null})" />
+      <item value="Get the class name without the qualified package name." />
+      <item value="Check whether the given String contains actual text. More specifically, this method returns true if the String is not null, its length is greater than 0, and it contains at least one non-whitespace character." />
       <item value="此属性是其别名的属性的名称" />
       <item value="The name of the attribute that this attribute is an alias for" />
       <item value="The optional name of a method to call on the bean instance upon closing the application context, for example a close() method on a JDBC DataSource implementation, or a Hibernate SessionFactory object. The method must have no arguments but may throw any exception." />
@@ -46,21 +56,11 @@
       <item value="Flag that indicates whether this context has been closed already." />
       <item value="Flag that indicates whether this context is currently active." />
       <item value="Replaces all placeholders of format {name} with the value returned from the supplied" />
-      <item value="Servlet config init parameters property source name: &quot;servletConfigInitParams&quot;." />
-      <item value="Customize the set of property sources with those contributed by superclasses as well as those appropriate for standard servlet-based environments:" />
-      <item value="Check whether a default JNDI environment, as in a Java EE environment, is available on this JVM. Returns: true if a default InitialContext can be used, false if not" />
-      <item value="Resolve the given path, replacing placeholders with corresponding environment property values if necessary. Applied to config locations." />
-      <item value="the parent context" />
-      <item value="array of resource locations" />
-      <item value="whether to automatically refresh the context, loading all bean definitions and creating all singletons. Alternatively, call refresh manually after further configuring the context." />
-      <item value="Adds the elapsed time from the given start time (ns) to the perf counter." />
-      <item value="Performance counter support for internal JRE classes. This class defines a fixed list of counters for the platform to use as an interim solution until RFE 6209222 is implemented. The perf counters will be created in the jvmstat perf buffer that the HotSpot VM creates. The default size is 32K and thus the number of counters is bounded. You can alter the size with -XX:PerfDataMemorySize=&lt;bytes&gt; option. If there is insufficient memory in the jvmstat perf buffer, the C heap memory will be used and thus the application will continue to run if the counters added exceeds the buffer size but the counters will be missing. See HotSpot jvmstat implementation for certain circumstances that the jvmstat perf buffer is not supported." />
-      <item value="If true then resolve the class" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="143" />
-        <entry key="ENGLISH" value="143" />
+        <entry key="CHINESE" value="152" />
+        <entry key="ENGLISH" value="153" />
         <entry key="HINDI" value="2" />
       </map>
     </option>
