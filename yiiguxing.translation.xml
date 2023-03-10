@@ -6,6 +6,7 @@
     <option name="newTranslationDialogY" value="25" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Specify whether scanned beans should be registered for lazy initialization. Default is false; switch this to true when desired." />
       <item value="The pattern (or patterns) to use for the filter, as an alternative to specifying a Class value. If type is set to ASPECTJ, this is an AspectJ type pattern expression. If type is set to REGEX, this is a regex pattern for the fully-qualified class names to match." />
       <item value="Filter candidates matching a given regex pattern." />
       <item value="Filter candidates matching a given AspectJ type pattern expression." />
@@ -55,12 +56,11 @@
       <item value="Replace any stub property sources with actual instances. Replace Servlet-related property sources." />
       <item value="Initialize any placeholder property sources in the context environment." />
       <item value="Flag that indicates whether this context has been closed already." />
-      <item value="Flag that indicates whether this context is currently active." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="153" />
-        <entry key="ENGLISH" value="154" />
+        <entry key="CHINESE" value="154" />
+        <entry key="ENGLISH" value="155" />
         <entry key="HINDI" value="2" />
       </map>
     </option>
