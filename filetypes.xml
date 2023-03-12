@@ -17,6 +17,7 @@
       <mapping ext="key" type="PLAIN_TEXT" />
       <mapping ext="proproties" type="PLAIN_TEXT" />
       <mapping ext="setting" type="PLAIN_TEXT" />
+      <mapping ext="plantuml" type="PlantUML file" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="bat" approved="true" type="Bat" />
       <removed_mapping ext="psd" approved="true" type="Image" />
