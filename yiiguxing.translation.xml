@@ -5,6 +5,10 @@
     <option name="newTranslationDialogX" value="593" />
     <option name="newTranslationDialogY" value="25" />
     <histories>
+      <item value="Load bean definitions from the specified resource." />
+      <item value="&lt;p&gt;Concrete bean definition readers can of course add additional load and register methods for bean definitions, specific to their bean definition format. &lt;p&gt;Note that a bean definition reader does not have to implement this interface. It only serves as suggestion for bean definition readers that want to follow standard naming conventions." />
+      <item value="Simple interface for bean definition readers. Specifies load methods with Resource and String location parameters." />
+      <item value="Return the primary constructor of the provided class. For Kotlin classes, this returns the Java constructor corresponding to the Kotlin primary constructor (as defined in the Kotlin specification). Otherwise, in particular for non-Kotlin classes, this simply returns {@code null}." />
       <item value="if true, then the String will be added to the end of the file rather than overwriting" />
       <item value="Defines zero (0) or more exception classes, which must be subclasses of Throwable, indicating which exception types must cause a transaction rollback. By default, a transaction will be rolled back on RuntimeException and Error but not on checked exceptions (business exceptions). See org.springframework.transaction.interceptor.DefaultTransactionAttribute.rollbackOn(Throwable) for a detailed explanation. This is the preferred way to construct a rollback rule (in contrast to rollbackForClassName), matching the exception type, its subclasses, and its nested classes. See the class-level javadocs for further details on rollback rule semantics and warnings regarding possible unintentional matches." />
       <item value="Defines zero (0) or more exception classes, which must be subclasses of Throwable, indicating which exception types must cause a transaction rollback. By default, a transaction will be rolled back on RuntimeException and Error but not on checked exceptions (business exceptions). See org.springframework.transaction.interceptor.DefaultTransactionAttribute.rollbackOn(Throwable) for a detailed explanation." />
@@ -51,20 +55,16 @@
       <item value="List of names of manually registered singletons, in registration order." />
       <item value="List of bean definition names, in registration order." />
       <item value="Map of singleton-only bean names, keyed by dependency type." />
-      <item value="Return whether the given throwable is a checked exception: that is, neither a RuntimeException nor an Error." />
-      <item value="Parses the supplied {@code &lt;bean&gt;} element. May return {@code null} if there were errors during parse. Errors are reported to the" />
-      <item value="Create a new BeanComponentDefinition for the given bean." />
-      <item value="Process the given bean element, parsing the bean definition and registering it with the registry." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="45" />
-        <entry key="ENGLISH" value="46" />
+        <entry key="CHINESE" value="49" />
+        <entry key="ENGLISH" value="50" />
         <entry key="HINDI" value="2" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1651593122853" />
+    <option name="lastTrimTime" value="1678612113045" />
   </component>
 </application>
